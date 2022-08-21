@@ -1,0 +1,40 @@
+/* ====== Page de styles associés au composant Login.js ====== */
+
+/* Style du container de la page de connexion */
+.container {
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 4px;
+}
+
+/* Style du message de succès */
+.success-msg {
+  color: #1d3557;
+  background: #8fffab;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/** Ligne de chaque champ du formulaire de login */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+
+.input-error {
+  border-color: #e63946;
+}
+
+.error {
+  color: #e63946;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}

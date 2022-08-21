@@ -1,0 +1,25 @@
+/* ====== Page de styles définissant le style global de l'application ====== */
+
+/** Style principal */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Style de la page de l'application */
+#root {
+  /*background-color: #282c34;*/
+  /*color: white;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#body {
+  padding: 1%;
+  flex: 1;
+}

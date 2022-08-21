@@ -1,0 +1,39 @@
+/* ====== Page de styles associés au composant Chargement.js ====== */
+
+/* Style du conteneur permettant au logo de chargement d'être centré */
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+/* Style de l'image du logo */
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Style permettant de faire lancer une animation */
+@media (prefers-reduced-motion: no-preference) {
+  .animation-rotate {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/** Style permettant de faire pivoter le logo à 360°  */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
