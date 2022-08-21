@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react'
-import CoordonneesContext from "../composants/Carte/Overlays/CoordonneesContext";
+import CoordonneesContext from "../../composants/Carte/Overlays/CoordonneesContext";
 
 /**
  * Composant
@@ -28,9 +28,10 @@ export const PopupSysteme = ({systemes}) => {
 
   // ====== AFFICHAGE ====== //
 
-  return <React.Fragment>
-    <p>{systeme?.nom}</p>
+  return systeme && <React.Fragment>
+    <p>{systeme.nom}</p>
   </React.Fragment>
+
 }
 
 function distance(p, point) {

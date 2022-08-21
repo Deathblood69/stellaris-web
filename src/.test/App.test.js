@@ -1,5 +1,5 @@
 import {render, screen} from '@testing-library/react';
-import CarteGalaxie from '../pages/CarteGalaxie';
+import CarteGalaxie from '../pages/partie/CarteGalaxie';
 
 test('renders learn react link', () => {
   render(<CarteGalaxie />);

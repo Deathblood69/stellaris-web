@@ -27,9 +27,23 @@ export const Accueil = ({user}) => {
   /** Liste des tuiles à afficher sur le menu d'accueil */
   const cards = [
     {
-      titre: 'Manipulation des entités',
+      titre: 'Carte',
       description:
-        "Tutoriel permettant d'apprendre comment manipuler des entités en React grâce à l'utilisation d'un CRUD basique.",
+        "Carte de la galaxie en 2d",
+      image: {path: logo, alt: 'Logo'},
+      actions: {
+        justifyContent: 'center',
+        elements: [
+          <Button onClick={() => navigate(ROUTES.galaxie)} size="small">
+            {t('cards.details')}
+          </Button>,
+        ],
+      },
+    },
+    {
+      titre: 'Utilisateurs',
+      description:
+        "Gestion des utilisateurs",
       image: {path: logo, alt: 'Logo'},
       actions: {
         justifyContent: 'center',

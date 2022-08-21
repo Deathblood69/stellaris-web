@@ -10,6 +10,7 @@ import {Connexion} from './connexion/Connexion'
 import {ROUTES} from '../constantes/constantes-routes'
 import {DialogSupression} from '../composants/Popup/DialogSupression'
 import {UserContext} from '../provider/UserProvider'
+import CarteGalaxie from "./partie/CarteGalaxie";
 
 /**
  * Composant principal de l'application, permet de gérer les routes et l'agencement
@@ -33,14 +34,15 @@ export const Template = () => {
         {user ? (
           <Route
             path={ROUTES.root}
-            element={<BarreMenu handleDeconnexion={handleDeconnexion} />}
+            element={<BarreMenu handleDeconnexion={handleDeconnexion}/>}
           >
-            <Route index element={<Accueil user={user} />} />
-            <Route path={ROUTES.utilisateurs} element={<TableauUtilisateurs />}>
-              <Route path={ROUTES.nouveau} element={<DialogUtilisateur />} />
-              <Route path={ROUTES.supprimer} element={<DialogSupression />} />
-              <Route path={':id'} element={<DialogUtilisateur />} />
+            <Route index element={<Accueil user={user}/>}/>
+            <Route path={ROUTES.utilisateurs} element={<TableauUtilisateurs/>}>
+              <Route path={ROUTES.nouveau} element={<DialogUtilisateur/>}/>
+              <Route path={ROUTES.supprimer} element={<DialogSupression/>}/>
+              <Route path={':id'} element={<DialogUtilisateur/>}/>
             </Route>
+            <Route path={ROUTES.galaxie} element={<CarteGalaxie/>}/>
             <Route
               path={'*'}
               element={
@@ -56,7 +58,7 @@ export const Template = () => {
         ) : (
           <Route
             path={'*'}
-            element={<Connexion handleConnexion={handleConnexion} />}
+            element={<Connexion handleConnexion={handleConnexion}/>}
           />
         )}
       </Routes>

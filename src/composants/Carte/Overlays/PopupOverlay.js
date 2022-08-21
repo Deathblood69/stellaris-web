@@ -47,6 +47,10 @@ export const PopupOverlay = ({children}) => {
         setCordonnees(undefined)
       }
     });
+    map.on('click', function (event) {
+      const coordinate = event.coordinate
+      console.log(coordinate)
+    })
   }, [map, overlay])
 
   useEffect(() => {

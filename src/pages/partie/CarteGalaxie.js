@@ -1,14 +1,14 @@
 import React, {useMemo} from 'react';
-import Carte from "../composants/Carte/Carte";
-import Layers from "../composants/Carte/Layers/Layers";
-import Controls from "../composants/Carte/Controls/Controls";
-import FullScreenControl from "../composants/Carte/Controls/FullScreenControl";
-import PointLayer from "../composants/Carte/Layers/PointLayer";
-import StaticLayer from "../composants/Carte/Layers/StaticLayer";
+import Carte from "../../composants/Carte/Carte";
+import Layers from "../../composants/Carte/Layers/Layers";
+import Controls from "../../composants/Carte/Controls/Controls";
+import FullScreenControl from "../../composants/Carte/Controls/FullScreenControl";
+import PointLayer from "../../composants/Carte/Layers/PointLayer";
+import StaticLayer from "../../composants/Carte/Layers/StaticLayer";
 import {getCenter} from "ol/extent";
-import galaxie from '../images/galaxie.jpg'
-import Overlays from "../composants/Carte/Overlays/Overlays";
-import {PopupOverlay} from "../composants/Carte/Overlays/PopupOverlay";
+import galaxie from '../../images/galaxie.png'
+import Overlays from "../../composants/Carte/Overlays/Overlays";
+import {PopupOverlay} from "../../composants/Carte/Overlays/PopupOverlay";
 import {PopupSysteme} from "./PopupSysteme";
 
 
@@ -23,11 +23,11 @@ function CarteGalaxie() {
   const systemes = [
     {
       nom: 'Sol',
-      coordonnees: [430, 150],
+      coordonnees: [730, 326],
     },
     {
-      nom: 'Alpha Centauri',
-      coordonnees: [530, 430],
+      nom: 'Colonia',
+      coordonnees: [613, 497],
     },
   ]
 

@@ -7,4 +7,5 @@ export const ROUTES = {
   nouveau: 'new',
   supprimer: 'delete',
   utilisateurs: '/utilisateurs',
+  galaxie: '/galaxie'
 }
