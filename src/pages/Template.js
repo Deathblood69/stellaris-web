@@ -1,15 +1,10 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import {Route, Routes} from 'react-router-dom'
 import BarreMenu from '../layout/BarreMenu'
 import {Accueil} from './accueil/Accueil'
-import TableauUtilisateurs from './utilisateur/TableauUtilisateurs'
-import {DialogUtilisateur} from './utilisateur/DialogUtilisateur'
-import {PageErreur} from '../composants/Messages/PageErreur'
-import absentIcon from '../images/404.png'
-import {Connexion} from './connexion/Connexion'
-import {ROUTES} from '../constantes/constantes-routes'
-import {DialogSupression} from '../composants/Popup/DialogSupression'
-import {UserContext} from '../provider/UserProvider'
+import {CONSTANTES_ROUTES} from '../constantes/routes/constantes-routes'
+import {NouvellePartie} from './nouvellePartie/NouvellePartie'
+import {Empire} from './nouvellePartie/empire/Empire'
 
 /**
  * Composant principal de l'application, permet de gérer les routes et l'agencement
@@ -17,48 +12,23 @@ import {UserContext} from '../provider/UserProvider'
  * @constructor
  */
 export const Template = () => {
-  const {user, setUser} = useContext(UserContext)
-
-  const handleConnexion = values => {
-    setUser(values)
-  }
-
-  const handleDeconnexion = () => {
-    setUser(undefined)
-  }
-
   return (
     <React.Fragment>
       <Routes>
-        {user ? (
+        <Route path={'/'} element={<BarreMenu />}>
+          <Route index element={<Accueil />} />
           <Route
-            path={ROUTES.root}
-            element={<BarreMenu handleDeconnexion={handleDeconnexion} />}
+            path={CONSTANTES_ROUTES.nouvellePartie.index}
+            element={<NouvellePartie />}
           >
-            <Route index element={<Accueil user={user} />} />
-            <Route path={ROUTES.utilisateurs} element={<TableauUtilisateurs />}>
-              <Route path={ROUTES.nouveau} element={<DialogUtilisateur />} />
-              <Route path={ROUTES.supprimer} element={<DialogSupression />} />
-              <Route path={':id'} element={<DialogUtilisateur />} />
-            </Route>
+            <Route path={CONSTANTES_ROUTES.nouvellePartie.aleatoire} />
+            <Route path={CONSTANTES_ROUTES.nouvellePartie.creerNouveau} />
             <Route
-              path={'*'}
-              element={
-                <PageErreur
-                  titre={'page.absente_titre'}
-                  message={'page.absente_message'}
-                  description={'page.absente_description'}
-                  icone={absentIcon}
-                />
-              }
+              path={CONSTANTES_ROUTES.nouvellePartie.empire}
+              element={<Empire />}
             />
           </Route>
-        ) : (
-          <Route
-            path={'*'}
-            element={<Connexion handleConnexion={handleConnexion} />}
-          />
-        )}
+        </Route>
       </Routes>
     </React.Fragment>
   )

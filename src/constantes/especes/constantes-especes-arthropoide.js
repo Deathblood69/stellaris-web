@@ -1,0 +1,76 @@
+import {IMAGES} from '../../images/images'
+
+export const CONSTANTES_ESPECES_ARTHROPOIDE = {
+  slender1: {
+    nom: 'slender1',
+    image: IMAGES.espece.human,
+  },
+  slender3: {
+    nom: 'slender3',
+    image: IMAGES.espece.human,
+  },
+  slender5: {
+    nom: 'slender5',
+    image: IMAGES.espece.human,
+  },
+  normal6: {
+    nom: 'normal6',
+    image: IMAGES.espece.human,
+  },
+  normal7: {
+    nom: 'normal7',
+    image: IMAGES.espece.human,
+  },
+  normal8: {
+    nom: 'normal8',
+    image: IMAGES.espece.human,
+  },
+  normal9: {
+    nom: 'normal9',
+    image: IMAGES.espece.human,
+  },
+  normal10: {
+    nom: 'normal10',
+    image: IMAGES.espece.human,
+  },
+  massive11: {
+    nom: 'massive11',
+    image: IMAGES.espece.human,
+  },
+  massive12: {
+    nom: 'massive12',
+    image: IMAGES.espece.human,
+  },
+  massive13: {
+    nom: 'massive13',
+    image: IMAGES.espece.human,
+  },
+  massive14: {
+    nom: 'massive14',
+    image: IMAGES.espece.human,
+  },
+  massive15: {
+    nom: 'massive15',
+    image: IMAGES.espece.human,
+  },
+  massive16: {
+    nom: 'massive16',
+    image: IMAGES.espece.human,
+  },
+  massive17: {
+    nom: 'massive17',
+    image: IMAGES.espece.human,
+  },
+  arthropoid18: {
+    nom: 'arthropoid18',
+    image: IMAGES.espece.human,
+  },
+  arthropoid19: {
+    nom: 'arthropoid19',
+    image: IMAGES.espece.human,
+  },
+  arthropoid20: {
+    nom: 'arthropoid20',
+    image: IMAGES.espece.human,
+  },
+}

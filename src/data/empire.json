@@ -1,0 +1,91 @@
+{
+  "Impérium de l'Humanité": {
+    "key": "Impérium de l'Humanité",
+    "ship_prefix": {
+      "key": "",
+      "literal": "yes"
+    },
+    "species": {
+      "class": "HUM",
+      "portrait": "human",
+      "species_name": {
+        "key": "humaine",
+        "literal": "yes"
+      },
+      "species_plural": {
+        "key": "Humains",
+        "literal": "yes"
+      },
+      "species_adjective": {
+        "key": "humaine",
+        "literal": "yes"
+      },
+      "name_list": "HUMAN1",
+      "gender": "not_set",
+      "traits": [
+        "trait_extremely_adaptive",
+        "trait_intelligent",
+        "trait_slow_learners",
+        "trait_sedentary",
+        "trait_unruly"
+      ]
+    },
+    "adjective": {
+      "key": "Impérial",
+      "literal": "yes"
+    },
+    "authority": "auth_imperial",
+    "government": "gov_illuminated_autocracy",
+    "advisor_voice_type": "l_the_diplomat",
+    "planet_name": {
+      "key": "Terre",
+      "literal": "yes"
+    },
+    "planet_class": "pc_continental",
+    "system_name": {
+      "key": "Sol",
+      "literal": "yes"
+    },
+    "initializer": "sol_system_initializer",
+    "graphical_culture": "humanoid_01",
+    "city_graphical_culture": "humanoid_01",
+    "empire_flag": {
+      "icon": {
+        "category": "human",
+        "file": "flag_human_4.dds"
+      },
+      "background": {
+        "category": "backgrounds",
+        "file": "00_solid.dds"
+      },
+      "colors": ["black", "red", "black", "null"]
+    },
+    "ruler": {
+      "gender": "male",
+      "name": {
+        "first_name": {
+          "key": "HUMAN1_CHR_Tiberius"
+        },
+        "second_name": {
+          "key": "HUMAN1_CHR_Nelson"
+        }
+      },
+      "portrait": "human_male_03",
+      "texture": "4",
+      "attachment": "16",
+      "clothes": "6",
+      "heir_title": {
+        "key": "Primarque",
+        "literal": "yes"
+      },
+      "leader_class": "ruler"
+    },
+    "spawn_as_fallen": "no",
+    "ignore_portrait_duplication": "no",
+    "room": "personality_democratic_crusaders_room",
+    "spawn_enabled": "yes",
+    "ethics": ["ethic_authoritarian", "ethic_fanatic_materialist"],
+    "civics": ["civic_technocracy", "civic_crafters"],
+    "origin": "origin_remnants"
+  }
+}
