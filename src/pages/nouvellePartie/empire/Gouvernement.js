@@ -19,7 +19,7 @@ export const Gouvernement = ({gouvernement, ethiques = []}) => (
       <Typography>Système défensif rebelle</Typography>
     </Grid>
     <Grid item xs>
-      <img src={gouvernement.image} alt={'image du gouvernement'} />
+      <img src={gouvernement.image} alt={'Gouvernement'} />
     </Grid>
     <Grid item xs>
       <Typography>{gouvernement.nom}</Typography>

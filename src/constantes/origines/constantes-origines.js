@@ -1,4 +1,3 @@
-import React from 'react'
 import {IMAGES} from '../../images/images'
 
 export const CONSTANTES_ORIGINES = {

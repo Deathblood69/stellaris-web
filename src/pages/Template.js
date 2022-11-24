@@ -21,8 +21,14 @@ export const Template = () => {
             path={CONSTANTES_ROUTES.nouvellePartie.index}
             element={<NouvellePartie />}
           >
-            <Route path={CONSTANTES_ROUTES.nouvellePartie.aleatoire} />
-            <Route path={CONSTANTES_ROUTES.nouvellePartie.creerNouveau} />
+            <Route
+              path={CONSTANTES_ROUTES.nouvellePartie.aleatoire}
+              element={<React.Fragment />}
+            />
+            <Route
+              path={CONSTANTES_ROUTES.nouvellePartie.creerNouveau}
+              element={<React.Fragment />}
+            />
             <Route
               path={CONSTANTES_ROUTES.nouvellePartie.empire}
               element={<Empire />}

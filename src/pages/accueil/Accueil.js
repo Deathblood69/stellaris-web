@@ -1,7 +1,7 @@
 import React from 'react'
 import {Grid, Typography} from '@mui/material'
 import {CONSTANTES_ROUTES} from '../../constantes/routes/constantes-routes'
-import {BoutonNavigation} from '../../composants/Boutons/BoutonNavigation'
+import {BoutonNavigation} from '../../composants/BoutonNavigation'
 
 /**
  * Composant affichant la page d'accueil de l'application
