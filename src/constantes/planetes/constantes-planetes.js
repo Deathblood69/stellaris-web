@@ -1,5 +1,5 @@
 import {CONSTANTES_PLANETES_CLIMAT} from './constantes-planetes-climat'
-import { IMAGES } from "../../images/images";
+import {IMAGES} from '../../images/images'
 
 export const CONSTANTES_PLANETES = {
   aride: {

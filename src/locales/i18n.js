@@ -15,7 +15,6 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
   })
+  .then()
 i18n.addResourceBundle('fr', 'translation', fr, true, true)
 i18n.addResourceBundle('en', 'translation', en, true, true)
-
-export default i18n

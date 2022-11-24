@@ -10,6 +10,7 @@ import {CONSTANTES_ESPECES_LITHOIDE} from './constantes-especes-lithoide'
 import {CONSTANTES_ESPECES_NECROIDE} from './constantes-especes-necroide'
 import {CONSTANTES_ESPECES_AQUATIQUE} from './constantes-especes-aquatique'
 import {CONSTANTES_ESPECES_TOXOIDE} from './constantes-especes-toxoide'
+import {CONSTANTES_ESPECES_MACHINE} from './constantes-especes-machine'
 
 export const CONSTANTES_ESPECES = {
   humain: CONSTANTES_ESPECES_HUMAIN,
@@ -24,4 +25,5 @@ export const CONSTANTES_ESPECES = {
   necroide: CONSTANTES_ESPECES_NECROIDE,
   aquatique: CONSTANTES_ESPECES_AQUATIQUE,
   toxoide: CONSTANTES_ESPECES_TOXOIDE,
+  machine: CONSTANTES_ESPECES_MACHINE,
 }

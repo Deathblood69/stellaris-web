@@ -20,6 +20,7 @@ export const ListItems = ({
         <ListItemButton onClick={() => onClick(action[keyTexte])}>
           {isImageIcon ? (
             <img
+              alt={keyIcone}
               height={'30px'}
               src={action[keyIcone]}
               style={{paddingRight: '25px'}}

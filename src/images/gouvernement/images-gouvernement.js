@@ -1,4 +1,3 @@
-import React from "react";
 import auth_corporate from './auth_corporate.png'
 import auth_democratic from './auth_democratic.png'
 import auth_dictatorial from './auth_dictatorial.png'

@@ -24,7 +24,7 @@ export const Description = ({vaisseau, origine}) => (
       />
     </Grid>
     <Grid item xs container alignItems={'center'}>
-      <img src={origine.icone} />
+      <img src={origine.icone} alt={'Origine'} />
       <Typography>{origine.titre}</Typography>
     </Grid>
     <Grid item xs>
