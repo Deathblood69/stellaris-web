@@ -8,6 +8,8 @@ import {IMAGES_VAISSEAUX} from './vaisseaux/images-vaisseaux'
 import {IMAGES_ETHIQUES} from './ethiques/images-ethiques'
 import {IMAGES_GOUVERNEMENT} from './gouvernement/images-gouvernement'
 import {IMAGES_ORIGINE} from './origines/images-origines'
+import {IMAGE_TRAITS} from "./traits/images-traits";
+import {IMAGE_CIVIC} from "./civics/images-gouvernement";
 
 export const IMAGES = {
   fond: background,
@@ -20,4 +22,6 @@ export const IMAGES = {
   ethique: IMAGES_ETHIQUES,
   gouvernement: IMAGES_GOUVERNEMENT,
   origin: IMAGES_ORIGINE,
+  trait: IMAGE_TRAITS,
+  civics: IMAGE_CIVIC,
 }
