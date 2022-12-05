@@ -1,7 +1,8 @@
 {
-  "name": "formation-react-js",
+  "name": "stellaris-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://deathblood69.github.io/stellaris-web",
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
     "@emotion/react": "^11.9.3",
@@ -11,6 +12,7 @@
     "@mui/x-date-pickers": "^5.0.0-beta.1",
     "@tanstack/react-query": "^4.0.10",
     "formik": "^2.2.9",
+    "gh-pages": "^4.0.0",
     "i18next": "^21.8.14",
     "i18next-browser-languagedetector": "^6.1.4",
     "react": "^18.2.0",
@@ -37,7 +39,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,3 +62,4 @@
     ]
   }
 }
+
