@@ -1,529 +1,529 @@
 import {IMAGES} from "../../images/images";
 
 export const CONSTANTES_CIVISME = {
-    civic_agrarian_idyll: {
-        nom: 'civic_agrarian_idyll',
-        image: IMAGES.civisme.civic_agrarian_idyll,
-    },
-    civic_ancient_caches_of_technology: {
-        nom: 'civic_ancient_caches_of_technology',
-        image: IMAGES.civisme.civic_ancient_caches_of_technology,
-    },
-    civic_anglers: {
-        nom: 'civic_anglers',
-        image: IMAGES.civisme.civic_anglers,
-    },
-    civic_aristocratic_elite: {
-        nom: 'civic_aristocratic_elite',
-        image: IMAGES.civisme.civic_aristocratic_elite,
-    },
-    civic_ascensionists: {
-        nom: 'civic_ascensionists',
-        image: IMAGES.civisme.civic_ascensionists,
-    },
-    civic_awakened_machine: {
-        nom: 'civic_awakened_machine',
-        image: IMAGES.civisme.civic_awakened_machine,
-    },
-    civic_barbaric_despoilers: {
-        nom: 'civic_barbaric_despoilers',
-        image: IMAGES.civisme.civic_barbaric_despoilers,
-    },
-    civic_beacon_of_liberty: {
-        nom: 'civic_beacon_of_liberty',
-        image: IMAGES.civisme.civic_beacon_of_liberty,
-    },
-    civic_brand_loyalty: {
-        nom: 'civic_brand_loyalty',
-        image: IMAGES.civisme.civic_brand_loyalty,
-    },
-    civic_byzantine_bureaucracy: {
-        nom: 'civic_byzantine_bureaucracy',
-        image: IMAGES.civisme.civic_byzantine_bureaucracy,
-    },
-    civic_caravaneer_caravansary: {
-        nom: 'civic_caravaneer_caravansary',
-        image: IMAGES.civisme.civic_caravaneer_caravansary,
-    },
-    civic_caravaneer_fleet1: {
-        nom: 'civic_caravaneer_fleet1',
-        image: IMAGES.civisme.civic_caravaneer_fleet1,
-    },
-    civic_caravaneer_fleet2: {
-        nom: 'civic_caravaneer_fleet2',
-        image: IMAGES.civisme.civic_caravaneer_fleet2,
-    },
-    civic_caravaneer_fleet3: {
-        nom: 'civic_caravaneer_fleet3',
-        image: IMAGES.civisme.civic_caravaneer_fleet3,
-    },
-    civic_carrion_eaters: {
-        nom: 'civic_carrion_eaters',
-        image: IMAGES.civisme.civic_carrion_eaters,
-    },
-    civic_catalytic_processing: {
-        nom: 'civic_catalytic_processing',
-        image: IMAGES.civisme.civic_catalytic_processing,
-    },
-    civic_citizen_service: {
-        nom: 'civic_citizen_service',
-        image: IMAGES.civisme.civic_citizen_service,
-    },
-    civic_corp_pleasure_seekers: {
-        nom: 'civic_corp_pleasure_seekers',
-        image: IMAGES.civisme.civic_corp_pleasure_seekers,
-    },
-    civic_corporate_anglers: {
-        nom: 'civic_corporate_anglers',
-        image: IMAGES.civisme.civic_corporate_anglers,
-    },
-    civic_corporate_ascensionists: {
-        nom: 'civic_corporate_ascensionists',
-        image: IMAGES.civisme.civic_corporate_ascensionists,
-    },
-    civic_corporate_catalytic_processing: {
-        nom: 'civic_corporate_catalytic_processing',
-        image: IMAGES.civisme.civic_corporate_catalytic_processing,
-    },
-    civic_corporate_crafters: {
-        nom: 'civic_corporate_crafters',
-        image: IMAGES.civisme.civic_corporate_crafters,
-    },
-    civic_corporate_dominion: {
-        nom: 'civic_corporate_dominion',
-        image: IMAGES.civisme.civic_corporate_dominion,
-    },
-    civic_corporate_hedonism: {
-        nom: 'civic_corporate_hedonism',
-        image: IMAGES.civisme.civic_corporate_hedonism,
-    },
-    civic_corporate_relentless_industrialists: {
-        nom: 'civic_corporate_relentless_industrialists',
-        image: IMAGES.civisme.civic_corporate_relentless_industrialists,
-    },
-    civic_corporate_scavengers: {
-        nom: 'civic_corporate_scavengers',
-        image: IMAGES.civisme.civic_corporate_scavengers,
-    },
-    civic_corporate_toxic_baths: {
-        nom: 'civic_corporate_toxic_baths',
-        image: IMAGES.civisme.civic_corporate_toxic_baths,
-    },
-    civic_corvee_system: {
-        nom: 'civic_corvee_system',
-        image: IMAGES.civisme.civic_corvee_system,
-    },
-    civic_crafters: {
-        nom: 'civic_crafters',
-        image: IMAGES.civisme.civic_crafters,
-    },
-    civic_criminal_heritage: {
-        nom: 'civic_criminal_heritage',
-        image: IMAGES.civisme.civic_criminal_heritage,
-    },
-    civic_custodian_directives: {
-        nom: 'civic_custodian_directives',
-        image: IMAGES.civisme.civic_custodian_directives,
-    },
-    civic_cutthroat_politics: {
-        nom: 'civic_cutthroat_politics',
-        image: IMAGES.civisme.civic_cutthroat_politics,
-    },
-    civic_death_cult: {
-        nom: 'civic_death_cult',
-        image: IMAGES.civisme.civic_death_cult,
-    },
-    civic_death_cult_corporate: {
-        nom: 'civic_death_cult_corporate',
-        image: IMAGES.civisme.civic_death_cult_corporate,
-    },
-    civic_diplomatic_corps: {
-        nom: 'civic_diplomatic_corps',
-        image: IMAGES.civisme.civic_diplomatic_corps,
-    },
-    civic_distinguished_admiralty: {
-        nom: 'civic_distinguished_admiralty',
-        image: IMAGES.civisme.civic_distinguished_admiralty,
-    },
-    civic_efficient_bureaucracy: {
-        nom: 'civic_efficient_bureaucracy',
-        image: IMAGES.civisme.civic_efficient_bureaucracy,
-    },
-    civic_empire_in_decline: {
-        nom: 'civic_empire_in_decline',
-        image: IMAGES.civisme.civic_empire_in_decline,
-    },
-    civic_environmentalist: {
-        nom: 'civic_environmentalist',
-        image: IMAGES.civisme.civic_environmentalist,
-    },
-    civic_exalted_priesthood: {
-        nom: 'civic_exalted_priesthood',
-        image: IMAGES.civisme.civic_exalted_priesthood,
-    },
-    civic_fanatic_purifiers: {
-        nom: 'civic_fanatic_purifiers',
-        image: IMAGES.civisme.civic_fanatic_purifiers,
-    },
-    civic_feudal_realm: {
-        nom: 'civic_feudal_realm',
-        image: IMAGES.civisme.civic_feudal_realm,
-    },
-    civic_final_defense_protocols: {
-        nom: 'civic_final_defense_protocols',
-        image: IMAGES.civisme.civic_final_defense_protocols,
-    },
-    civic_franchising: {
-        nom: 'civic_franchising',
-        image: IMAGES.civisme.civic_franchising,
-    },
-    civic_free_haven: {
-        nom: 'civic_free_haven',
-        image: IMAGES.civisme.civic_free_haven,
-    },
-    civic_free_traders: {
-        nom: 'civic_free_traders',
-        image: IMAGES.civisme.civic_free_traders,
-    },
-    civic_functional_architecture: {
-        nom: 'civic_functional_architecture',
-        image: IMAGES.civisme.civic_functional_architecture,
-    },
-    civic_galactic_sovereign: {
-        nom: 'civic_galactic_sovereign',
-        image: IMAGES.civisme.civic_galactic_sovereign,
-    },
-    civic_gospel_of_the_masses: {
-        nom: 'civic_gospel_of_the_masses',
-        image: IMAGES.civisme.civic_gospel_of_the_masses,
-    },
-    civic_hive_ascensionists: {
-        nom: 'civic_hive_ascensionists',
-        image: IMAGES.civisme.civic_hive_ascensionists,
-    },
-    civic_hive_ascetic: {
-        nom: 'civic_hive_ascetic',
-        image: IMAGES.civisme.civic_hive_ascetic,
-    },
-    civic_hive_catalytic_processing: {
-        nom: 'civic_hive_catalytic_processing',
-        image: IMAGES.civisme.civic_hive_catalytic_processing,
-    },
-    civic_hive_cordyceptic_drones: {
-        nom: 'civic_hive_cordyceptic_drones',
-        image: IMAGES.civisme.civic_hive_cordyceptic_drones,
-    },
-    civic_hive_devouring_swarm: {
-        nom: 'civic_hive_devouring_swarm',
-        image: IMAGES.civisme.civic_hive_devouring_swarm,
-    },
-    civic_hive_divided_attention: {
-        nom: 'civic_hive_divided_attention',
-        image: IMAGES.civisme.civic_hive_divided_attention,
-    },
-    civic_hive_empath: {
-        nom: 'civic_hive_empath',
-        image: IMAGES.civisme.civic_hive_empath,
-    },
-    civic_hive_idyllic_bloom: {
-        nom: 'civic_hive_idyllic_bloom',
-        image: IMAGES.civisme.civic_hive_idyllic_bloom,
-    },
-    civic_hive_life_seeded: {
-        nom: 'civic_hive_life_seeded',
-        image: IMAGES.civisme.civic_hive_life_seeded,
-    },
-    civic_hive_memorialist: {
-        nom: 'civic_hive_memorialist',
-        image: IMAGES.civisme.civic_hive_memorialist,
-    },
-    civic_hive_natural_neural_network: {
-        nom: 'civic_hive_natural_neural_network',
-        image: IMAGES.civisme.civic_hive_natural_neural_network,
-    },
-    civic_hive_one_mind: {
-        nom: 'civic_hive_one_mind',
-        image: IMAGES.civisme.civic_hive_one_mind,
-    },
-    civic_hive_pooled_knowledge: {
-        nom: 'civic_hive_pooled_knowledge',
-        image: IMAGES.civisme.civic_hive_pooled_knowledge,
-    },
-    civic_hive_strength_of_legions: {
-        nom: 'civic_hive_strength_of_legions',
-        image: IMAGES.civisme.civic_hive_strength_of_legions,
-    },
-    civic_hive_subspace_ephapse: {
-        nom: 'civic_hive_subspace_ephapse',
-        image: IMAGES.civisme.civic_hive_subspace_ephapse,
-    },
-    civic_hive_subsumed_will: {
-        nom: 'civic_hive_subsumed_will',
-        image: IMAGES.civisme.civic_hive_subsumed_will,
-    },
-    civic_hive_toxic_baths: {
-        nom: 'civic_hive_toxic_baths',
-        image: IMAGES.civisme.civic_hive_toxic_baths,
-    },
-    civic_idealistic_foundation: {
-        nom: 'civic_idealistic_foundation',
-        image: IMAGES.civisme.civic_idealistic_foundation,
-    },
-    civic_idyllic_bloom: {
-        nom: 'civic_idyllic_bloom',
-        image: IMAGES.civisme.civic_idyllic_bloom,
-    },
-    civic_imperial_cult: {
-        nom: 'civic_imperial_cult',
-        image: IMAGES.civisme.civic_imperial_cult,
-    },
-    civic_indentured_assets: {
-        nom: 'civic_indentured_assets',
-        image: IMAGES.civisme.civic_indentured_assets,
-    },
-    civic_inwards_perfection: {
-        nom: 'civic_inwards_perfection',
-        image: IMAGES.civisme.civic_inwards_perfection,
-    },
-    civic_legal_counsel_civic: {
-        nom: 'civic_legal_counsel_civic',
-        image: IMAGES.civisme.civic_legal_counsel_civic,
-    },
-    civic_lethargic_leadership: {
-        nom: 'civic_lethargic_leadership',
-        image: IMAGES.civisme.civic_lethargic_leadership,
-    },
-    civic_life_seeded: {
-        nom: 'civic_life_seeded',
-        image: IMAGES.civisme.civic_life_seeded,
-    },
-    civic_machine_ascensionists: {
-        nom: 'civic_machine_ascensionists',
-        image: IMAGES.civisme.civic_machine_ascensionists,
-    },
-    civic_machine_assimilator: {
-        nom: 'civic_machine_assimilator',
-        image: IMAGES.civisme.civic_machine_assimilator,
-    },
-    civic_machine_builder: {
-        nom: 'civic_machine_builder',
-        image: IMAGES.civisme.civic_machine_builder,
-    },
-    civic_machine_built_to_last: {
-        nom: 'civic_machine_built_to_last',
-        image: IMAGES.civisme.civic_machine_built_to_last,
-    },
-    civic_machine_catalytic_processing: {
-        nom: 'civic_machine_catalytic_processing',
-        image: IMAGES.civisme.civic_machine_catalytic_processing,
-    },
-    civic_machine_delegated_functions: {
-        nom: 'civic_machine_delegated_functions',
-        image: IMAGES.civisme.civic_machine_delegated_functions,
-    },
-    civic_machine_factory_overclock: {
-        nom: 'civic_machine_factory_overclock',
-        image: IMAGES.civisme.civic_machine_factory_overclock,
-    },
-    civic_machine_introspective: {
-        nom: 'civic_machine_introspective',
-        image: IMAGES.civisme.civic_machine_introspective,
-    },
-    civic_machine_maintenance_protocols: {
-        nom: 'civic_machine_maintenance_protocols',
-        image: IMAGES.civisme.civic_machine_maintenance_protocols,
-    },
-    civic_machine_memorialist: {
-        nom: 'civic_machine_memorialist',
-        image: IMAGES.civisme.civic_machine_memorialist,
-    },
-    civic_machine_ota_updates: {
-        nom: 'civic_machine_ota_updates',
-        image: IMAGES.civisme.civic_machine_ota_updates,
-    },
-    civic_machine_predictive_analysis: {
-        nom: 'civic_machine_predictive_analysis',
-        image: IMAGES.civisme.civic_machine_predictive_analysis,
-    },
-    civic_machine_remnants: {
-        nom: 'civic_machine_remnants',
-        image: IMAGES.civisme.civic_machine_remnants,
-    },
-    civic_machine_replication: {
-        nom: 'civic_machine_replication',
-        image: IMAGES.civisme.civic_machine_replication,
-    },
-    civic_machine_rockbreakers: {
-        nom: 'civic_machine_rockbreakers',
-        image: IMAGES.civisme.civic_machine_rockbreakers,
-    },
-    civic_machine_servitor: {
-        nom: 'civic_machine_servitor',
-        image: IMAGES.civisme.civic_machine_servitor,
-    },
-    civic_machine_terminator: {
-        nom: 'civic_machine_terminator',
-        image: IMAGES.civisme.civic_machine_terminator,
-    },
-    civic_machine_toxic_baths: {
-        nom: 'civic_machine_toxic_baths',
-        image: IMAGES.civisme.civic_machine_toxic_baths,
-    },
-    civic_machine_unitary_cohesion: {
-        nom: 'civic_machine_unitary_cohesion',
-        image: IMAGES.civisme.civic_machine_unitary_cohesion,
-    },
-    civic_machine_warbots: {
-        nom: 'civic_machine_warbots',
-        image: IMAGES.civisme.civic_machine_warbots,
-    },
-    civic_machine_zero_waste_protocols: {
-        nom: 'civic_machine_zero_waste_protocols',
-        image: IMAGES.civisme.civic_machine_zero_waste_protocols,
-    },
-    civic_malfunctioning_custodian: {
-        nom: 'civic_malfunctioning_custodian',
-        image: IMAGES.civisme.civic_malfunctioning_custodian,
-    },
-    civic_mechanists: {
-        nom: 'civic_mechanists',
-        image: IMAGES.civisme.civic_mechanists,
-    },
-    civic_media_conglomerate: {
-        nom: 'civic_media_conglomerate',
-        image: IMAGES.civisme.civic_media_conglomerate,
-    },
-    civic_memorialist: {
-        nom: 'civic_memorialist',
-        image: IMAGES.civisme.civic_memorialist,
-    },
-    civic_mercenaries: {
-        nom: 'civic_mercenaries',
-        image: IMAGES.civisme.civic_mercenaries,
-    },
-    civic_merchant_guilds: {
-        nom: 'civic_merchant_guilds',
-        image: IMAGES.civisme.civic_merchant_guilds,
-    },
-    civic_meritocracy: {
-        nom: 'civic_meritocracy',
-        image: IMAGES.civisme.civic_meritocracy,
-    },
-    civic_mining_guilds: {
-        nom: 'civic_mining_guilds',
-        image: IMAGES.civisme.civic_mining_guilds,
-    },
-    civic_nationalistic_zeal: {
-        nom: 'civic_nationalistic_zeal',
-        image: IMAGES.civisme.civic_nationalistic_zeal,
-    },
-    civic_naval_contractors: {
-        nom: 'civic_naval_contractors',
-        image: IMAGES.civisme.civic_naval_contractors,
-    },
-    civic_parliamentary_system: {
-        nom: 'civic_parliamentary_system',
-        image: IMAGES.civisme.civic_parliamentary_system,
-    },
-    civic_permanent_employment: {
-        nom: 'civic_permanent_employment',
-        image: IMAGES.civisme.civic_permanent_employment,
-    },
-    civic_philosopher_king: {
-        nom: 'civic_philosopher_king',
-        image: IMAGES.civisme.civic_philosopher_king,
-    },
-    civic_pleasure_seekers: {
-        nom: 'civic_pleasure_seekers',
-        image: IMAGES.civisme.civic_pleasure_seekers,
-    },
-    civic_police_state: {
-        nom: 'civic_police_state',
-        image: IMAGES.civisme.civic_police_state,
-    },
-    civic_pompous_purists: {
-        nom: 'civic_pompous_purists',
-        image: IMAGES.civisme.civic_pompous_purists,
-    },
-    civic_post_apocalyptic: {
-        nom: 'civic_post_apocalyptic',
-        image: IMAGES.civisme.civic_post_apocalyptic,
-    },
-    civic_private_military_companies: {
-        nom: 'civic_private_military_companies',
-        image: IMAGES.civisme.civic_private_military_companies,
-    },
-    civic_private_prospectors: {
-        nom: 'civic_private_prospectors',
-        image: IMAGES.civisme.civic_private_prospectors,
-    },
-    civic_psionic_sovereign: {
-        nom: 'civic_psionic_sovereign',
-        image: IMAGES.civisme.civic_psionic_sovereign,
-    },
-    civic_public_relations_specialists: {
-        nom: 'civic_public_relations_specialists',
-        image: IMAGES.civisme.civic_public_relations_specialists,
-    },
-    civic_reanimated_armies: {
-        nom: 'civic_reanimated_armies',
-        image: IMAGES.civisme.civic_reanimated_armies,
-    },
-    civic_relentless_industrialists: {
-        nom: 'civic_relentless_industrialists',
-        image: IMAGES.civisme.civic_relentless_industrialists,
-    },
-    civic_revanchist_fervor: {
-        nom: 'civic_revanchist_fervor',
-        image: IMAGES.civisme.civic_revanchist_fervor,
-    },
-    civic_ruthless_competition: {
-        nom: 'civic_ruthless_competition',
-        image: IMAGES.civisme.civic_ruthless_competition,
-    },
-    civic_salvagers: {
-        nom: 'civic_salvagers',
-        image: IMAGES.civisme.civic_salvagers,
-    },
-    civic_scavengers: {
-        nom: 'civic_scavengers',
-        image: IMAGES.civisme.civic_scavengers,
-    },
-    civic_shadow_council: {
-        nom: 'civic_shadow_council',
-        image: IMAGES.civisme.civic_shadow_council,
-    },
-    civic_shared_burden: {
-        nom: 'civic_shared_burden',
-        image: IMAGES.civisme.civic_shared_burden,
-    },
-    civic_shroudwalkers: {
-        nom: 'civic_shroudwalkers',
-        image: IMAGES.civisme.civic_shroudwalkers,
-    },
-    civic_slaver_guilds: {
-        nom: 'civic_slaver_guilds',
-        image: IMAGES.civisme.civic_slaver_guilds,
-    },
-    civic_syncretic_evolution: {
-        nom: 'civic_syncretic_evolution',
-        image: IMAGES.civisme.civic_syncretic_evolution,
-    },
-    civic_technocracy: {
-        nom: 'civic_technocracy',
-        image: IMAGES.civisme.civic_technocracy,
-    },
-    civic_toxic_baths: {
-        nom: 'civic_toxic_baths',
-        image: IMAGES.civisme.civic_toxic_baths,
-    },
-    civic_trading_posts: {
-        nom: 'civic_trading_posts',
-        image: IMAGES.civisme.civic_trading_posts,
-    },
-    civic_warrior_culture: {
-        nom: 'civic_warrior_culture',
-        image: IMAGES.civisme.civic_warrior_culture,
+    agrarian_idyll: {
+        nom: 'agrarian_idyll',
+        image: IMAGES.civisme.agrarian_idyll,
+    },
+    ancient_caches_of_technology: {
+        nom: 'ancient_caches_of_technology',
+        image: IMAGES.civisme.ancient_caches_of_technology,
+    },
+    anglers: {
+        nom: 'anglers',
+        image: IMAGES.civisme.anglers,
+    },
+    aristocratic_elite: {
+        nom: 'aristocratic_elite',
+        image: IMAGES.civisme.aristocratic_elite,
+    },
+    ascensionists: {
+        nom: 'ascensionists',
+        image: IMAGES.civisme.ascensionists,
+    },
+    awakened_machine: {
+        nom: 'awakened_machine',
+        image: IMAGES.civisme.awakened_machine,
+    },
+    barbaric_despoilers: {
+        nom: 'barbaric_despoilers',
+        image: IMAGES.civisme.barbaric_despoilers,
+    },
+    beacon_of_liberty: {
+        nom: 'beacon_of_liberty',
+        image: IMAGES.civisme.beacon_of_liberty,
+    },
+    brand_loyalty: {
+        nom: 'brand_loyalty',
+        image: IMAGES.civisme.brand_loyalty,
+    },
+    byzantine_bureaucracy: {
+        nom: 'byzantine_bureaucracy',
+        image: IMAGES.civisme.byzantine_bureaucracy,
+    },
+    caravaneer_caravansary: {
+        nom: 'caravaneer_caravansary',
+        image: IMAGES.civisme.caravaneer_caravansary,
+    },
+    caravaneer_fleet1: {
+        nom: 'caravaneer_fleet1',
+        image: IMAGES.civisme.caravaneer_fleet1,
+    },
+    caravaneer_fleet2: {
+        nom: 'caravaneer_fleet2',
+        image: IMAGES.civisme.caravaneer_fleet2,
+    },
+    caravaneer_fleet3: {
+        nom: 'caravaneer_fleet3',
+        image: IMAGES.civisme.caravaneer_fleet3,
+    },
+    carrion_eaters: {
+        nom: 'carrion_eaters',
+        image: IMAGES.civisme.carrion_eaters,
+    },
+    catalytic_processing: {
+        nom: 'catalytic_processing',
+        image: IMAGES.civisme.catalytic_processing,
+    },
+    citizen_service: {
+        nom: 'citizen_service',
+        image: IMAGES.civisme.citizen_service,
+    },
+    corp_pleasure_seekers: {
+        nom: 'corp_pleasure_seekers',
+        image: IMAGES.civisme.corp_pleasure_seekers,
+    },
+    corporate_anglers: {
+        nom: 'corporate_anglers',
+        image: IMAGES.civisme.corporate_anglers,
+    },
+    corporate_ascensionists: {
+        nom: 'corporate_ascensionists',
+        image: IMAGES.civisme.corporate_ascensionists,
+    },
+    corporate_catalytic_processing: {
+        nom: 'corporate_catalytic_processing',
+        image: IMAGES.civisme.corporate_catalytic_processing,
+    },
+    corporate_crafters: {
+        nom: 'corporate_crafters',
+        image: IMAGES.civisme.corporate_crafters,
+    },
+    corporate_dominion: {
+        nom: 'corporate_dominion',
+        image: IMAGES.civisme.corporate_dominion,
+    },
+    corporate_hedonism: {
+        nom: 'corporate_hedonism',
+        image: IMAGES.civisme.corporate_hedonism,
+    },
+    corporate_relentless_industrialists: {
+        nom: 'corporate_relentless_industrialists',
+        image: IMAGES.civisme.corporate_relentless_industrialists,
+    },
+    corporate_scavengers: {
+        nom: 'corporate_scavengers',
+        image: IMAGES.civisme.corporate_scavengers,
+    },
+    corporate_toxic_baths: {
+        nom: 'corporate_toxic_baths',
+        image: IMAGES.civisme.corporate_toxic_baths,
+    },
+    corvee_system: {
+        nom: 'corvee_system',
+        image: IMAGES.civisme.corvee_system,
+    },
+    crafters: {
+        nom: 'crafters',
+        image: IMAGES.civisme.crafters,
+    },
+    criminal_heritage: {
+        nom: 'criminal_heritage',
+        image: IMAGES.civisme.criminal_heritage,
+    },
+    custodian_directives: {
+        nom: 'custodian_directives',
+        image: IMAGES.civisme.custodian_directives,
+    },
+    cutthroat_politics: {
+        nom: 'cutthroat_politics',
+        image: IMAGES.civisme.cutthroat_politics,
+    },
+    death_cult: {
+        nom: 'death_cult',
+        image: IMAGES.civisme.death_cult,
+    },
+    death_cult_corporate: {
+        nom: 'death_cult_corporate',
+        image: IMAGES.civisme.death_cult_corporate,
+    },
+    diplomatic_corps: {
+        nom: 'diplomatic_corps',
+        image: IMAGES.civisme.diplomatic_corps,
+    },
+    distinguished_admiralty: {
+        nom: 'distinguished_admiralty',
+        image: IMAGES.civisme.distinguished_admiralty,
+    },
+    efficient_bureaucracy: {
+        nom: 'efficient_bureaucracy',
+        image: IMAGES.civisme.efficient_bureaucracy,
+    },
+    empire_in_decline: {
+        nom: 'empire_in_decline',
+        image: IMAGES.civisme.empire_in_decline,
+    },
+    environmentalist: {
+        nom: 'environmentalist',
+        image: IMAGES.civisme.environmentalist,
+    },
+    exalted_priesthood: {
+        nom: 'exalted_priesthood',
+        image: IMAGES.civisme.exalted_priesthood,
+    },
+    fanatic_purifiers: {
+        nom: 'fanatic_purifiers',
+        image: IMAGES.civisme.fanatic_purifiers,
+    },
+    feudal_realm: {
+        nom: 'feudal_realm',
+        image: IMAGES.civisme.feudal_realm,
+    },
+    final_defense_protocols: {
+        nom: 'final_defense_protocols',
+        image: IMAGES.civisme.final_defense_protocols,
+    },
+    franchising: {
+        nom: 'franchising',
+        image: IMAGES.civisme.franchising,
+    },
+    free_haven: {
+        nom: 'free_haven',
+        image: IMAGES.civisme.free_haven,
+    },
+    free_traders: {
+        nom: 'free_traders',
+        image: IMAGES.civisme.free_traders,
+    },
+    functional_architecture: {
+        nom: 'functional_architecture',
+        image: IMAGES.civisme.functional_architecture,
+    },
+    galactic_sovereign: {
+        nom: 'galactic_sovereign',
+        image: IMAGES.civisme.galactic_sovereign,
+    },
+    gospel_of_the_masses: {
+        nom: 'gospel_of_the_masses',
+        image: IMAGES.civisme.gospel_of_the_masses,
+    },
+    hive_ascensionists: {
+        nom: 'hive_ascensionists',
+        image: IMAGES.civisme.hive_ascensionists,
+    },
+    hive_ascetic: {
+        nom: 'hive_ascetic',
+        image: IMAGES.civisme.hive_ascetic,
+    },
+    hive_catalytic_processing: {
+        nom: 'hive_catalytic_processing',
+        image: IMAGES.civisme.hive_catalytic_processing,
+    },
+    hive_cordyceptic_drones: {
+        nom: 'hive_cordyceptic_drones',
+        image: IMAGES.civisme.hive_cordyceptic_drones,
+    },
+    hive_devouring_swarm: {
+        nom: 'hive_devouring_swarm',
+        image: IMAGES.civisme.hive_devouring_swarm,
+    },
+    hive_divided_attention: {
+        nom: 'hive_divided_attention',
+        image: IMAGES.civisme.hive_divided_attention,
+    },
+    hive_empath: {
+        nom: 'hive_empath',
+        image: IMAGES.civisme.hive_empath,
+    },
+    hive_idyllic_bloom: {
+        nom: 'hive_idyllic_bloom',
+        image: IMAGES.civisme.hive_idyllic_bloom,
+    },
+    hive_life_seeded: {
+        nom: 'hive_life_seeded',
+        image: IMAGES.civisme.hive_life_seeded,
+    },
+    hive_memorialist: {
+        nom: 'hive_memorialist',
+        image: IMAGES.civisme.hive_memorialist,
+    },
+    hive_natural_neural_network: {
+        nom: 'hive_natural_neural_network',
+        image: IMAGES.civisme.hive_natural_neural_network,
+    },
+    hive_one_mind: {
+        nom: 'hive_one_mind',
+        image: IMAGES.civisme.hive_one_mind,
+    },
+    hive_pooled_knowledge: {
+        nom: 'hive_pooled_knowledge',
+        image: IMAGES.civisme.hive_pooled_knowledge,
+    },
+    hive_strength_of_legions: {
+        nom: 'hive_strength_of_legions',
+        image: IMAGES.civisme.hive_strength_of_legions,
+    },
+    hive_subspace_ephapse: {
+        nom: 'hive_subspace_ephapse',
+        image: IMAGES.civisme.hive_subspace_ephapse,
+    },
+    hive_subsumed_will: {
+        nom: 'hive_subsumed_will',
+        image: IMAGES.civisme.hive_subsumed_will,
+    },
+    hive_toxic_baths: {
+        nom: 'hive_toxic_baths',
+        image: IMAGES.civisme.hive_toxic_baths,
+    },
+    idealistic_foundation: {
+        nom: 'idealistic_foundation',
+        image: IMAGES.civisme.idealistic_foundation,
+    },
+    idyllic_bloom: {
+        nom: 'idyllic_bloom',
+        image: IMAGES.civisme.idyllic_bloom,
+    },
+    imperial_cult: {
+        nom: 'imperial_cult',
+        image: IMAGES.civisme.imperial_cult,
+    },
+    indentured_assets: {
+        nom: 'indentured_assets',
+        image: IMAGES.civisme.indentured_assets,
+    },
+    inwards_perfection: {
+        nom: 'inwards_perfection',
+        image: IMAGES.civisme.inwards_perfection,
+    },
+    legal_counsel_civic: {
+        nom: 'legal_counsel_civic',
+        image: IMAGES.civisme.legal_counsel_civic,
+    },
+    lethargic_leadership: {
+        nom: 'lethargic_leadership',
+        image: IMAGES.civisme.lethargic_leadership,
+    },
+    life_seeded: {
+        nom: 'life_seeded',
+        image: IMAGES.civisme.life_seeded,
+    },
+    machine_ascensionists: {
+        nom: 'machine_ascensionists',
+        image: IMAGES.civisme.machine_ascensionists,
+    },
+    machine_assimilator: {
+        nom: 'machine_assimilator',
+        image: IMAGES.civisme.machine_assimilator,
+    },
+    machine_builder: {
+        nom: 'machine_builder',
+        image: IMAGES.civisme.machine_builder,
+    },
+    machine_built_to_last: {
+        nom: 'machine_built_to_last',
+        image: IMAGES.civisme.machine_built_to_last,
+    },
+    machine_catalytic_processing: {
+        nom: 'machine_catalytic_processing',
+        image: IMAGES.civisme.machine_catalytic_processing,
+    },
+    machine_delegated_functions: {
+        nom: 'machine_delegated_functions',
+        image: IMAGES.civisme.machine_delegated_functions,
+    },
+    machine_factory_overclock: {
+        nom: 'machine_factory_overclock',
+        image: IMAGES.civisme.machine_factory_overclock,
+    },
+    machine_introspective: {
+        nom: 'machine_introspective',
+        image: IMAGES.civisme.machine_introspective,
+    },
+    machine_maintenance_protocols: {
+        nom: 'machine_maintenance_protocols',
+        image: IMAGES.civisme.machine_maintenance_protocols,
+    },
+    machine_memorialist: {
+        nom: 'machine_memorialist',
+        image: IMAGES.civisme.machine_memorialist,
+    },
+    machine_ota_updates: {
+        nom: 'machine_ota_updates',
+        image: IMAGES.civisme.machine_ota_updates,
+    },
+    machine_predictive_analysis: {
+        nom: 'machine_predictive_analysis',
+        image: IMAGES.civisme.machine_predictive_analysis,
+    },
+    machine_remnants: {
+        nom: 'machine_remnants',
+        image: IMAGES.civisme.machine_remnants,
+    },
+    machine_replication: {
+        nom: 'machine_replication',
+        image: IMAGES.civisme.machine_replication,
+    },
+    machine_rockbreakers: {
+        nom: 'machine_rockbreakers',
+        image: IMAGES.civisme.machine_rockbreakers,
+    },
+    machine_servitor: {
+        nom: 'machine_servitor',
+        image: IMAGES.civisme.machine_servitor,
+    },
+    machine_terminator: {
+        nom: 'machine_terminator',
+        image: IMAGES.civisme.machine_terminator,
+    },
+    machine_toxic_baths: {
+        nom: 'machine_toxic_baths',
+        image: IMAGES.civisme.machine_toxic_baths,
+    },
+    machine_unitary_cohesion: {
+        nom: 'machine_unitary_cohesion',
+        image: IMAGES.civisme.machine_unitary_cohesion,
+    },
+    machine_warbots: {
+        nom: 'machine_warbots',
+        image: IMAGES.civisme.machine_warbots,
+    },
+    machine_zero_waste_protocols: {
+        nom: 'machine_zero_waste_protocols',
+        image: IMAGES.civisme.machine_zero_waste_protocols,
+    },
+    malfunctioning_custodian: {
+        nom: 'malfunctioning_custodian',
+        image: IMAGES.civisme.malfunctioning_custodian,
+    },
+    mechanists: {
+        nom: 'mechanists',
+        image: IMAGES.civisme.mechanists,
+    },
+    media_conglomerate: {
+        nom: 'media_conglomerate',
+        image: IMAGES.civisme.media_conglomerate,
+    },
+    memorialist: {
+        nom: 'memorialist',
+        image: IMAGES.civisme.memorialist,
+    },
+    mercenaries: {
+        nom: 'mercenaries',
+        image: IMAGES.civisme.mercenaries,
+    },
+    merchant_guilds: {
+        nom: 'merchant_guilds',
+        image: IMAGES.civisme.merchant_guilds,
+    },
+    meritocracy: {
+        nom: 'meritocracy',
+        image: IMAGES.civisme.meritocracy,
+    },
+    mining_guilds: {
+        nom: 'mining_guilds',
+        image: IMAGES.civisme.mining_guilds,
+    },
+    nationalistic_zeal: {
+        nom: 'nationalistic_zeal',
+        image: IMAGES.civisme.nationalistic_zeal,
+    },
+    naval_contractors: {
+        nom: 'naval_contractors',
+        image: IMAGES.civisme.naval_contractors,
+    },
+    parliamentary_system: {
+        nom: 'parliamentary_system',
+        image: IMAGES.civisme.parliamentary_system,
+    },
+    permanent_employment: {
+        nom: 'permanent_employment',
+        image: IMAGES.civisme.permanent_employment,
+    },
+    philosopher_king: {
+        nom: 'philosopher_king',
+        image: IMAGES.civisme.philosopher_king,
+    },
+    pleasure_seekers: {
+        nom: 'pleasure_seekers',
+        image: IMAGES.civisme.pleasure_seekers,
+    },
+    police_state: {
+        nom: 'police_state',
+        image: IMAGES.civisme.police_state,
+    },
+    pompous_purists: {
+        nom: 'pompous_purists',
+        image: IMAGES.civisme.pompous_purists,
+    },
+    post_apocalyptic: {
+        nom: 'post_apocalyptic',
+        image: IMAGES.civisme.post_apocalyptic,
+    },
+    private_military_companies: {
+        nom: 'private_military_companies',
+        image: IMAGES.civisme.private_military_companies,
+    },
+    private_prospectors: {
+        nom: 'private_prospectors',
+        image: IMAGES.civisme.private_prospectors,
+    },
+    psionic_sovereign: {
+        nom: 'psionic_sovereign',
+        image: IMAGES.civisme.psionic_sovereign,
+    },
+    public_relations_specialists: {
+        nom: 'public_relations_specialists',
+        image: IMAGES.civisme.public_relations_specialists,
+    },
+    reanimated_armies: {
+        nom: 'reanimated_armies',
+        image: IMAGES.civisme.reanimated_armies,
+    },
+    relentless_industrialists: {
+        nom: 'relentless_industrialists',
+        image: IMAGES.civisme.relentless_industrialists,
+    },
+    revanchist_fervor: {
+        nom: 'revanchist_fervor',
+        image: IMAGES.civisme.revanchist_fervor,
+    },
+    ruthless_competition: {
+        nom: 'ruthless_competition',
+        image: IMAGES.civisme.ruthless_competition,
+    },
+    salvagers: {
+        nom: 'salvagers',
+        image: IMAGES.civisme.salvagers,
+    },
+    scavengers: {
+        nom: 'scavengers',
+        image: IMAGES.civisme.scavengers,
+    },
+    shadow_council: {
+        nom: 'shadow_council',
+        image: IMAGES.civisme.shadow_council,
+    },
+    shared_burden: {
+        nom: 'shared_burden',
+        image: IMAGES.civisme.shared_burden,
+    },
+    shroudwalkers: {
+        nom: 'shroudwalkers',
+        image: IMAGES.civisme.shroudwalkers,
+    },
+    slaver_guilds: {
+        nom: 'slaver_guilds',
+        image: IMAGES.civisme.slaver_guilds,
+    },
+    syncretic_evolution: {
+        nom: 'syncretic_evolution',
+        image: IMAGES.civisme.syncretic_evolution,
+    },
+    technocracy: {
+        nom: 'technocracy',
+        image: IMAGES.civisme.technocracy,
+    },
+    toxic_baths: {
+        nom: 'toxic_baths',
+        image: IMAGES.civisme.toxic_baths,
+    },
+    trading_posts: {
+        nom: 'trading_posts',
+        image: IMAGES.civisme.trading_posts,
+    },
+    warrior_culture: {
+        nom: 'warrior_culture',
+        image: IMAGES.civisme.warrior_culture,
     },
     intel_icon_unknown_civics: {
         nom: 'intel_icon_unknown_civics',

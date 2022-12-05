@@ -226,7 +226,7 @@ export const IMAGE_CIVISME = {
     machine_unitary_cohesion: machine_unitary_cohesion,
     machine_warbots: machine_warbots,
     machine_zero_waste_protocols: machine_zero_waste_protocols,
-    malfunctioning_custodia: malfunctioning_custodian,
+    malfunctioning_custodian: malfunctioning_custodian,
     mechanists: mechanists,
     media_conglomerate: media_conglomerate,
     memorialist: memorialist,
@@ -262,5 +262,5 @@ export const IMAGE_CIVISME = {
     toxic_baths: toxic_baths,
     trading_posts: trading_posts,
     warrior_culture: warrior_culture,
-    icon_unknown_civics: intel_icon_unknown_civics,
+    intel_icon_unknown_civics: intel_icon_unknown_civics,
 }
