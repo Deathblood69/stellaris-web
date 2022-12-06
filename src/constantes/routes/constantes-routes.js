@@ -1,5 +1,5 @@
 export const CONSTANTES_ROUTES = {
-  root: '/',
+  root: '/stellaris-web',
   nouvellePartie: {
     index: 'nouvelle-partie',
     aleatoire: 'aleatoire',

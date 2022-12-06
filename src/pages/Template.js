@@ -15,7 +15,7 @@ export const Template = () => {
   return (
     <React.Fragment>
       <Routes>
-        <Route path={'/'} element={<BarreMenu />}>
+        <Route path={CONSTANTES_ROUTES.root} element={<BarreMenu />}>
           <Route index element={<Accueil />} />
           <Route
             path={CONSTANTES_ROUTES.nouvellePartie.index}
