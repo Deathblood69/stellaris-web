@@ -3,50 +3,50 @@ import {IMAGES} from '../../images/images'
 export const CONSTANTES_ESPECES_MACHINE = {
   common: {
     nom: 'common',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   human: {
     nom: 'human',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   mamillian: {
     nom: 'mamillian',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   reptilian: {
     nom: 'reptilian',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   avian: {
     nom: 'avian',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   arthropoid: {
     nom: 'arthropoid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   molluscoid: {
     nom: 'molluscoid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   fungoid: {
     nom: 'fungoid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   lithoid: {
     nom: 'lithoid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   necroid: {
     nom: 'necroid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   aquatic: {
     nom: 'aquatic',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   toxoid: {
     nom: 'toxoid',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
 }

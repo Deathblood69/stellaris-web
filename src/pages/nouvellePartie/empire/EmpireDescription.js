@@ -1,12 +1,13 @@
 import {Grid, Typography} from '@mui/material'
 import React from 'react'
 
-export const Description = ({vaisseau, origine}) => (
+export const EmpireDescription = ({vaisseau, origine}) => (
   <Grid
     item
     xs={12}
     md={6}
     lg={4}
+    container
     alignItems={'center'}
     direction={'column'}
     style={{

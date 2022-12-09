@@ -3,74 +3,74 @@ import {IMAGES} from '../../images/images'
 export const CONSTANTES_ETHIQUES = {
   autoritariste: {
     nom: 'Autoritaire',
-    image: IMAGES.ethique.autoritaire,
+    image: IMAGES.ethiques.ethic_authoritarian,
   },
   egalitaire: {
     nom: 'Egalitaire',
-    image: IMAGES.ethique.egalitaire,
+    image: IMAGES.ethiques.ethic_egalitarian,
   },
   fanatiquement_egalitariste: {
     nom: 'Fanatiquement égalitaire',
-    image: IMAGES.ethique.fanatiquement_egalitaire,
+    image: IMAGES.ethiques.ethic_fanatic_egalitarian,
   },
   esprit_de_ruche: {
     nom: 'Esprit de ruche',
-    image: IMAGES.ethique.esprit_de_ruche,
+    image: IMAGES.ethiques.ethic_fanatic_hive_mind,
   },
   fanatiquement_materialiste: {
     nom: 'Fanatiquement matérialiste',
-    image: IMAGES.ethique.fanatiquement_materialiste,
+    image: IMAGES.ethiques.ethic_fanatic_materialist,
   },
   fanatiquement_militariste: {
     nom: 'Fanatiquement militariste',
-    image: IMAGES.ethique.fanatiquement_militariste,
+    image: IMAGES.ethiques.ethic_fanatic_militarist,
   },
   fanatiquement_pacifiste: {
     nom: 'Fanatiquement pacifiste',
-    image: IMAGES.ethique.fanatiquement_pacifiste,
+    image: IMAGES.ethiques.ethic_fanatic_pacifist,
   },
   fanatiquement_spiritualiste: {
     nom: 'Fanatiquement spiritualiste',
-    image: IMAGES.ethique.fanatiquement_spiritualiste,
+    image: IMAGES.ethiques.ethic_fanatic_spiritualist,
   },
   fanatiquement_xenophile: {
     nom: 'Fanatiquement xénophile',
-    image: IMAGES.ethique.fanatiquement_xenophile,
+    image: IMAGES.ethiques.ethic_fanatic_xenophile,
   },
   fanatiquement_xenophobe: {
     nom: 'Fanatiquement xenophobe',
-    image: IMAGES.ethique.fanatiquement_xenophobe,
+    image: IMAGES.ethiques.ethic_fanatic_xenophobe,
   },
   conscience_de_gestalt: {
     nom: 'Conscience de gestalt',
-    image: IMAGES.ethique.conscience_de_gestalt,
+    image: IMAGES.ethiques.ethic_gestalt_consciousness,
   },
   materialiste: {
     nom: 'Matérialiste',
-    image: IMAGES.ethique.materialiste,
+    image: IMAGES.ethiques.ethic_materialist,
   },
   vide: {
     nom: 'Vide',
-    image: IMAGES.ethique.vide,
+    image: IMAGES.ethiques.ethic_middle,
   },
   militariste: {
     nom: 'Militariste',
-    image: IMAGES.ethique.militariste,
+    image: IMAGES.ethiques.ethic_militarist,
   },
   pacifiste: {
     nom: 'Pacifiste',
-    image: IMAGES.ethique.pacifiste,
+    image: IMAGES.ethiques.ethic_pacifist,
   },
   spiritualiste: {
     nom: 'Spiritualiste',
-    image: IMAGES.ethique.spiritualiste,
+    image: IMAGES.ethiques.ethic_spiritualist,
   },
   xenophile: {
     nom: 'Xénophile',
-    image: IMAGES.ethique.xenophile,
+    image: IMAGES.ethiques.ethic_xenophile,
   },
   xenophobe: {
     nom: 'Xenophobe',
-    image: IMAGES.ethique.xenophobe,
+    image: IMAGES.ethiques.ethic_xenophobe,
   },
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 import {Grid, Paper} from '@mui/material'
 import {useLocation} from 'react-router'
-import {Nom} from './Nom'
-import {Banniere} from './Banniere'
-import {Planete} from './Planete'
-import {Gouvernement} from './Gouvernement'
-import {Espece} from './Espece'
-import {Description} from './Description'
+import {EmpireNom} from './EmpireNom'
+import {EmpireBanniere} from './EmpireBanniere'
+import {EmpirePlanete} from './EmpirePlanete'
+import {EmpireGouvernement} from './EmpireGouvernement'
+import {EmpireEspece} from './EmpireEspece'
+import {EmpireDescription} from './EmpireDescription'
 
 export const Empire = () => {
   // ====== PARAMETRAGE ====== //
@@ -27,16 +27,17 @@ export const Empire = () => {
 
   return (
     <React.Fragment>
-      <Grid xs={12} lg={10} container component={Paper}>
-        <Nom nom={empire.nom} />
-        <Banniere drapeau={empire.drapeau} salle={empire.salle} />
-        <Planete planete={empire.planete} />
-        <Gouvernement
+      <Grid item xs={12} lg={10} container component={Paper}>
+        <EmpireNom nom={empire.nom} />
+        <EmpireBanniere drapeau={empire.drapeau} salle={empire.salle} />
+        <EmpirePlanete planete={empire.planete} />
+        <EmpireGouvernement
           gouvernement={empire.gouvernement}
           ethiques={empire.ethiques}
+          civismes={empire.civismes}
         />
-        <Espece espece={empire.espece} />
-        <Description vaisseau={empire.vaisseau} origine={empire.origine} />
+        <EmpireEspece espece={empire.espece} traits={empire.traits} />
+        <EmpireDescription vaisseau={empire.vaisseau} origine={empire.origine} />
       </Grid>
     </React.Fragment>
   )

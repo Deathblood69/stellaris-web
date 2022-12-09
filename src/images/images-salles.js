@@ -1,3 +1,4 @@
+
 import aquatics_room from './salles/aquatics_room.png';
 import default_room from './salles/default_room.png';
 import gilded_room from './salles/gilded_room.png';

@@ -1,3 +1,4 @@
+
 import adaptive from './traits/adaptive.png';
 import agrarian from './traits/agrarian.png';
 import aquatic from './traits/aquatic.png';
@@ -36,21 +37,17 @@ import decadent from './traits/decadent.png';
 import delicious from './traits/delicious.png';
 import deviants from './traits/deviants.png';
 import docile from './traits/docile.png';
-import drake_scaled from './traits/drake_scaled.png';
 import elevated_synapses from './traits/elevated_synapses.png';
 import enduring from './traits/enduring.png';
 import enigmatic_intelligence from './traits/enigmatic_intelligence.png';
 import enigmatic_intelligence_failed from './traits/enigmatic_intelligence_failed.png';
 import enigmatic_intelligence_poor from './traits/enigmatic_intelligence_poor.png';
-import entry_bg from './traits/entry_bg.png';
-import entry_selected from './traits/entry_selected.png';
 import erudite from './traits/erudite.png';
 import excessive_endurance from './traits/excessive_endurance.png';
 import exotic_metabolism from './traits/exotic_metabolism.png';
 import expressed_tradition from './traits/expressed_tradition.png';
 import extremely_adaptive from './traits/extremely_adaptive.png';
 import farm_hands from './traits/farm_hands.png';
-import felsic from './traits/felsic.png';
 import fertile from './traits/fertile.png';
 import fleeting from './traits/fleeting.png';
 import gene_mentorship from './traits/gene_mentorship.png';
@@ -61,115 +58,6 @@ import ingenious from './traits/ingenious.png';
 import inorganic_breath from './traits/inorganic_breath.png';
 import intelligent from './traits/intelligent.png';
 import juiced_power from './traits/juiced_power.png';
-import leader_adaptable from './traits/leader_adaptable.png';
-import leader_aggressive from './traits/leader_aggressive.png';
-import leader_agrarian_upbringing from './traits/leader_agrarian_upbringing.png';
-import leader_ai_aided_design from './traits/leader_ai_aided_design.png';
-import leader_archaeologist from './traits/leader_archaeologist.png';
-import leader_architectural_interest from './traits/leader_architectural_interest.png';
-import leader_armchair_commander from './traits/leader_armchair_commander.png';
-import leader_army_logistician from './traits/leader_army_logistician.png';
-import leader_army_veteran from './traits/leader_army_veteran.png';
-import leader_arrested_development from './traits/leader_arrested_development.png';
-import leader_attacker from './traits/leader_attacker.png';
-import leader_beaker from './traits/leader_beaker.png';
-import leader_bulwark_retaliator from './traits/leader_bulwark_retaliator.png';
-import leader_bulwark_sentinel from './traits/leader_bulwark_sentinel.png';
-import leader_bulwark_watcher from './traits/leader_bulwark_watcher.png';
-import leader_bureaucrat from './traits/leader_bureaucrat.png';
-import leader_butcher from './traits/leader_butcher.png';
-import leader_caravan_counter from './traits/leader_caravan_counter.png';
-import leader_carefree from './traits/leader_carefree.png';
-import leader_careful from './traits/leader_careful.png';
-import leader_cautious from './traits/leader_cautious.png';
-import leader_charismatic from './traits/leader_charismatic.png';
-import leader_chemicals from './traits/leader_chemicals.png';
-import leader_clone_soldier from './traits/leader_clone_soldier.png';
-import leader_clone_soldier_ascendant from './traits/leader_clone_soldier_ascendant.png';
-import leader_clone_soldier_descendant from './traits/leader_clone_soldier_descendant.png';
-import leader_composer_chosen from './traits/leader_composer_chosen.png';
-import leader_corrupt from './traits/leader_corrupt.png';
-import leader_curator from './traits/leader_curator.png';
-import leader_custom_AI_assistant from './traits/leader_custom_AI_assistant.png';
-import leader_cyborg from './traits/leader_cyborg.png';
-import leader_demoralizer from './traits/leader_demoralizer.png';
-import leader_eager from './traits/leader_eager.png';
-import leader_eater_chosen from './traits/leader_eater_chosen.png';
-import leader_enclave_trader from './traits/leader_enclave_trader.png';
-import leader_engineer from './traits/leader_engineer.png';
-import leader_environmental_engineer from './traits/leader_environmental_engineer.png';
-import leader_erratic_morality_core from './traits/leader_erratic_morality_core.png';
-import leader_expertise_biology from './traits/leader_expertise_biology.png';
-import leader_expertise_computing from './traits/leader_expertise_computing.png';
-import leader_expertise_field_manipulation from './traits/leader_expertise_field_manipulation.png';
-import leader_expertise_industry from './traits/leader_expertise_industry.png';
-import leader_expertise_materials from './traits/leader_expertise_materials.png';
-import leader_expertise_military_theory from './traits/leader_expertise_military_theory.png';
-import leader_expertise_new_worlds from './traits/leader_expertise_new_worlds.png';
-import leader_expertise_particles from './traits/leader_expertise_particles.png';
-import leader_expertise_propulsion from './traits/leader_expertise_propulsion.png';
-import leader_expertise_psionics from './traits/leader_expertise_psionics.png';
-import leader_expertise_statecraft from './traits/leader_expertise_statecraft.png';
-import leader_expertise_voidcraft from './traits/leader_expertise_voidcraft.png';
-import leader_financial from './traits/leader_financial.png';
-import leader_fist from './traits/leader_fist.png';
-import leader_fleet_logistician from './traits/leader_fleet_logistician.png';
-import leader_fleet_organizer from './traits/leader_fleet_organizer.png';
-import leader_food from './traits/leader_food.png';
-import leader_gale_speed from './traits/leader_gale_speed.png';
-import leader_glory_seeker from './traits/leader_glory_seeker.png';
-import leader_great_khan from './traits/leader_great_khan.png';
-import leader_hammer from './traits/leader_hammer.png';
-import leader_hells_heart from './traits/leader_hells_heart.png';
-import leader_inspired from './traits/leader_inspired.png';
-import leader_instrument_chosen from './traits/leader_instrument_chosen.png';
-import leader_intellectual from './traits/leader_intellectual.png';
-import leader_iron_fist from './traits/leader_iron_fist.png';
-import leader_lethargic from './traits/leader_lethargic.png';
-import leader_lightbulb_off from './traits/leader_lightbulb_off.png';
-import leader_lightbulb_on from './traits/leader_lightbulb_on.png';
-import leader_magnifying_glass from './traits/leader_magnifying_glass.png';
-import leader_maimed from './traits/leader_maimed.png';
-import leader_maniacal from './traits/leader_maniacal.png';
-import leader_medal from './traits/leader_medal.png';
-import leader_mercenary_warrior from './traits/leader_mercenary_warrior.png';
-import leader_meticulous from './traits/leader_meticulous.png';
-import leader_nervous from './traits/leader_nervous.png';
-import leader_nuumismatic_administration from './traits/leader_nuumismatic_administration.png';
-import leader_nuumismatic_priest from './traits/leader_nuumismatic_priest.png';
-import leader_oracle from './traits/leader_oracle.png';
-import leader_paranoid from './traits/leader_paranoid.png';
-import leader_parts_cannibalizer from './traits/leader_parts_cannibalizer.png';
-import leader_prospectorium_extractor from './traits/leader_prospectorium_extractor.png';
-import leader_prospectorium_optimizer from './traits/leader_prospectorium_optimizer.png';
-import leader_prospectorium_refiner from './traits/leader_prospectorium_refiner.png';
-import leader_psionic_chosen_one from './traits/leader_psionic_chosen_one.png';
-import leader_psionic_leader from './traits/leader_psionic_leader.png';
-import leader_reluctant from './traits/leader_reluctant.png';
-import leader_resilient from './traits/leader_resilient.png';
-import leader_restore_point from './traits/leader_restore_point.png';
-import leader_restrained from './traits/leader_restrained.png';
-import leader_retired_fleet_officer from './traits/leader_retired_fleet_officer.png';
-import leader_righteous from './traits/leader_righteous.png';
-import leader_roamer from './traits/leader_roamer.png';
-import leader_ruler_hive_mind from './traits/leader_ruler_hive_mind.png';
-import leader_sapient_AI_assistant from './traits/leader_sapient_AI_assistant.png';
-import leader_scholarium_explorer from './traits/leader_scholarium_explorer.png';
-import leader_scholarium_investigator from './traits/leader_scholarium_investigator.png';
-import leader_scholarium_observer from './traits/leader_scholarium_observer.png';
-import leader_scout from './traits/leader_scout.png';
-import leader_scroll from './traits/leader_scroll.png';
-import leader_sentinel from './traits/leader_sentinel.png';
-import leader_ship from './traits/leader_ship.png';
-import leader_spark_of_genius from './traits/leader_spark_of_genius.png';
-import leader_stubborn from './traits/leader_stubborn.png';
-import leader_substance_abuser from './traits/leader_substance_abuser.png';
-import leader_synthetic from './traits/leader_synthetic.png';
-import leader_traumatized from './traits/leader_traumatized.png';
-import leader_trickster from './traits/leader_trickster.png';
-import leader_unyielding from './traits/leader_unyielding.png';
-import leader_waste_management_specialist from './traits/leader_waste_management_specialist.png';
-import leader_whisperers_chosen from './traits/leader_whisperers_chosen.png';
 import limited_regeneration from './traits/limited_regeneration.png';
 import lithoid from './traits/lithoid.png';
 import lithoid_budding from './traits/lithoid_budding.png';
@@ -181,7 +69,6 @@ import machine_unit from './traits/machine_unit.png';
 import mechanical from './traits/mechanical.png';
 import mutagenic from './traits/mutagenic.png';
 import natural_engineers from './traits/natural_engineers.png';
-import natural_machinist from './traits/natural_machinist.png';
 import natural_physicists from './traits/natural_physicists.png';
 import natural_sociologists from './traits/natural_sociologists.png';
 import necrophage from './traits/necrophage.png';
@@ -190,23 +77,6 @@ import nomadic from './traits/nomadic.png';
 import nonadaptive from './traits/nonadaptive.png';
 import notofthisworld from './traits/notofthisworld.png';
 import noxious from './traits/noxious.png';
-import pc_ai_preference from './traits/pc_ai_preference.png';
-import pc_alpine_preference from './traits/pc_alpine_preference.png';
-import pc_arctic_preference from './traits/pc_arctic_preference.png';
-import pc_arid_preference from './traits/pc_arid_preference.png';
-import pc_continental_preference from './traits/pc_continental_preference.png';
-import pc_desert_preference from './traits/pc_desert_preference.png';
-import pc_gaia_preference from './traits/pc_gaia_preference.png';
-import pc_habitat_preference from './traits/pc_habitat_preference.png';
-import pc_hive_preference from './traits/pc_hive_preference.png';
-import pc_machine_preference from './traits/pc_machine_preference.png';
-import pc_nuked_preference from './traits/pc_nuked_preference.png';
-import pc_ocean_preference from './traits/pc_ocean_preference.png';
-import pc_relic_preference from './traits/pc_relic_preference.png';
-import pc_ring_preference from './traits/pc_ring_preference.png';
-import pc_savannah_preference from './traits/pc_savannah_preference.png';
-import pc_tropical_preference from './traits/pc_tropical_preference.png';
-import pc_tundra_preference from './traits/pc_tundra_preference.png';
 import plantoid_budding from './traits/plantoid_budding.png';
 import plantoid_phototrophic from './traits/plantoid_phototrophic.png';
 import plantoid_radiotrophic from './traits/plantoid_radiotrophic.png';
@@ -277,7 +147,6 @@ import ruler_reformer from './traits/ruler_reformer.png';
 import ruler_space_miner from './traits/ruler_space_miner.png';
 import ruler_world_shaper from './traits/ruler_world_shaper.png';
 import sedentary from './traits/sedentary.png';
-import selected from './traits/selected.png';
 import slow_breeders from './traits/slow_breeders.png';
 import slow_learners from './traits/slow_learners.png';
 import social_pheromones from './traits/social_pheromones.png';
@@ -289,17 +158,14 @@ import talented from './traits/talented.png';
 import technical_skill from './traits/technical_skill.png';
 import thrifty from './traits/thrifty.png';
 import timed from './traits/timed.png';
-import tiyanki from './traits/tiyanki.png';
 import traditional from './traits/traditional.png';
 import unknown from './traits/unknown.png';
 import unruly from './traits/unruly.png';
 import uplifted from './traits/uplifted.png';
-import vat_grown from './traits/vat_grown.png';
 import venerable from './traits/venerable.png';
 import very_strong from './traits/very_strong.png';
 import void_dweller from './traits/void_dweller.png';
 import void_dweller_positive from './traits/void_dweller_positive.png';
-import voidling from './traits/voidling.png';
 import wasteful from './traits/wasteful.png';
 import weak from './traits/weak.png';
 import zombie from './traits/zombie.png';
@@ -343,21 +209,17 @@ decadent,
 delicious,
 deviants,
 docile,
-drake_scaled,
 elevated_synapses,
 enduring,
 enigmatic_intelligence,
 enigmatic_intelligence_failed,
 enigmatic_intelligence_poor,
-entry_bg,
-entry_selected,
 erudite,
 excessive_endurance,
 exotic_metabolism,
 expressed_tradition,
 extremely_adaptive,
 farm_hands,
-felsic,
 fertile,
 fleeting,
 gene_mentorship,
@@ -368,115 +230,6 @@ ingenious,
 inorganic_breath,
 intelligent,
 juiced_power,
-leader_adaptable,
-leader_aggressive,
-leader_agrarian_upbringing,
-leader_ai_aided_design,
-leader_archaeologist,
-leader_architectural_interest,
-leader_armchair_commander,
-leader_army_logistician,
-leader_army_veteran,
-leader_arrested_development,
-leader_attacker,
-leader_beaker,
-leader_bulwark_retaliator,
-leader_bulwark_sentinel,
-leader_bulwark_watcher,
-leader_bureaucrat,
-leader_butcher,
-leader_caravan_counter,
-leader_carefree,
-leader_careful,
-leader_cautious,
-leader_charismatic,
-leader_chemicals,
-leader_clone_soldier,
-leader_clone_soldier_ascendant,
-leader_clone_soldier_descendant,
-leader_composer_chosen,
-leader_corrupt,
-leader_curator,
-leader_custom_AI_assistant,
-leader_cyborg,
-leader_demoralizer,
-leader_eager,
-leader_eater_chosen,
-leader_enclave_trader,
-leader_engineer,
-leader_environmental_engineer,
-leader_erratic_morality_core,
-leader_expertise_biology,
-leader_expertise_computing,
-leader_expertise_field_manipulation,
-leader_expertise_industry,
-leader_expertise_materials,
-leader_expertise_military_theory,
-leader_expertise_new_worlds,
-leader_expertise_particles,
-leader_expertise_propulsion,
-leader_expertise_psionics,
-leader_expertise_statecraft,
-leader_expertise_voidcraft,
-leader_financial,
-leader_fist,
-leader_fleet_logistician,
-leader_fleet_organizer,
-leader_food,
-leader_gale_speed,
-leader_glory_seeker,
-leader_great_khan,
-leader_hammer,
-leader_hells_heart,
-leader_inspired,
-leader_instrument_chosen,
-leader_intellectual,
-leader_iron_fist,
-leader_lethargic,
-leader_lightbulb_off,
-leader_lightbulb_on,
-leader_magnifying_glass,
-leader_maimed,
-leader_maniacal,
-leader_medal,
-leader_mercenary_warrior,
-leader_meticulous,
-leader_nervous,
-leader_nuumismatic_administration,
-leader_nuumismatic_priest,
-leader_oracle,
-leader_paranoid,
-leader_parts_cannibalizer,
-leader_prospectorium_extractor,
-leader_prospectorium_optimizer,
-leader_prospectorium_refiner,
-leader_psionic_chosen_one,
-leader_psionic_leader,
-leader_reluctant,
-leader_resilient,
-leader_restore_point,
-leader_restrained,
-leader_retired_fleet_officer,
-leader_righteous,
-leader_roamer,
-leader_ruler_hive_mind,
-leader_sapient_AI_assistant,
-leader_scholarium_explorer,
-leader_scholarium_investigator,
-leader_scholarium_observer,
-leader_scout,
-leader_scroll,
-leader_sentinel,
-leader_ship,
-leader_spark_of_genius,
-leader_stubborn,
-leader_substance_abuser,
-leader_synthetic,
-leader_traumatized,
-leader_trickster,
-leader_unyielding,
-leader_waste_management_specialist,
-leader_whisperers_chosen,
 limited_regeneration,
 lithoid,
 lithoid_budding,
@@ -488,7 +241,6 @@ machine_unit,
 mechanical,
 mutagenic,
 natural_engineers,
-natural_machinist,
 natural_physicists,
 natural_sociologists,
 necrophage,
@@ -497,23 +249,6 @@ nomadic,
 nonadaptive,
 notofthisworld,
 noxious,
-pc_ai_preference,
-pc_alpine_preference,
-pc_arctic_preference,
-pc_arid_preference,
-pc_continental_preference,
-pc_desert_preference,
-pc_gaia_preference,
-pc_habitat_preference,
-pc_hive_preference,
-pc_machine_preference,
-pc_nuked_preference,
-pc_ocean_preference,
-pc_relic_preference,
-pc_ring_preference,
-pc_savannah_preference,
-pc_tropical_preference,
-pc_tundra_preference,
 plantoid_budding,
 plantoid_phototrophic,
 plantoid_radiotrophic,
@@ -584,7 +319,6 @@ ruler_reformer,
 ruler_space_miner,
 ruler_world_shaper,
 sedentary,
-selected,
 slow_breeders,
 slow_learners,
 social_pheromones,
@@ -596,17 +330,14 @@ talented,
 technical_skill,
 thrifty,
 timed,
-tiyanki,
 traditional,
 unknown,
 unruly,
 uplifted,
-vat_grown,
 venerable,
 very_strong,
 void_dweller,
 void_dweller_positive,
-voidling,
 wasteful,
 weak,
 zombie,

@@ -3,30 +3,30 @@ import {IMAGES} from '../../images/images'
 export const CONSTANTES_GOUVERNEMENT = {
   corporation: {
     nom: 'Méga-corporation',
-    image: IMAGES.gouvernement.corporation,
+    image: IMAGES.gouvernement.auth_corporate,
   },
   democratique: {
     nom: 'Démocratique',
-    image: IMAGES.gouvernement.democratique,
+    image: IMAGES.gouvernement.auth_democratic,
   },
   dictarorial: {
     nom: 'Dictatorial',
-    image: IMAGES.gouvernement.dictarorial,
+    image: IMAGES.gouvernement.auth_dictatorial,
   },
   conscience_collective: {
     nom: 'Conscience Collective',
-    image: IMAGES.gouvernement.conscience_collective,
+    image: IMAGES.gouvernement.auth_hive_mind,
   },
   imperial: {
     nom: 'Impérial',
-    image: IMAGES.gouvernement.corporation,
+    image: IMAGES.gouvernement.auth_imperial,
   },
   intelligence_mecanique: {
     nom: 'Intelligence Mécanique',
-    image: IMAGES.gouvernement.intelligence_mecanique,
+    image: IMAGES.gouvernement.auth_machine_intelligence,
   },
   oligarchique: {
     nom: 'Oligarchique',
-    image: IMAGES.gouvernement.oligarchique,
+    image: IMAGES.gouvernement.auth_oligarchic,
   },
 }

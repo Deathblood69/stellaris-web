@@ -1,7 +1,7 @@
 import {Grid} from '@mui/material'
 import React from 'react'
 
-export const Banniere = ({salle, drapeau}) => (
+export const EmpireBanniere = ({salle, drapeau}) => (
   <Grid
     item
     xs={12}

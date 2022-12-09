@@ -1,3 +1,4 @@
+
 import ai_01 from './drapeaux/ai_01.png';
 import ai_02 from './drapeaux/ai_02.png';
 import corporate_01 from './drapeaux/corporate_01.png';
@@ -30,9 +31,6 @@ import domination_6 from './drapeaux/domination_6.png';
 import domination_7 from './drapeaux/domination_7.png';
 import domination_8 from './drapeaux/domination_8.png';
 import domination_9 from './drapeaux/domination_9.png';
-import extradimensional_01 from './drapeaux/extradimensional_01.png';
-import extradimensional_02 from './drapeaux/extradimensional_02.png';
-import extradimensional_03 from './drapeaux/extradimensional_03.png';
 import flag_blocky_1 from './drapeaux/flag_blocky_1.png';
 import flag_blocky_10 from './drapeaux/flag_blocky_10.png';
 import flag_blocky_11 from './drapeaux/flag_blocky_11.png';
@@ -222,9 +220,6 @@ domination_6,
 domination_7,
 domination_8,
 domination_9,
-extradimensional_01,
-extradimensional_02,
-extradimensional_03,
 flag_blocky_1,
 flag_blocky_10,
 flag_blocky_11,

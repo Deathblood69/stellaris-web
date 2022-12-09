@@ -1,3 +1,4 @@
+
 import ethic_authoritarian from './ethiques/ethic_authoritarian.png';
 import ethic_egalitarian from './ethiques/ethic_egalitarian.png';
 import ethic_fanatic_authoritarian from './ethiques/ethic_fanatic_authoritarian.png';

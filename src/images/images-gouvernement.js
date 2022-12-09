@@ -1,3 +1,4 @@
+
 import auth_corporate from './gouvernement/auth_corporate.png';
 import auth_democratic from './gouvernement/auth_democratic.png';
 import auth_dictatorial from './gouvernement/auth_dictatorial.png';

@@ -16,6 +16,6 @@ export const CONSTANTES = {
   ethiques: CONSTANTES_ETHIQUES,
   salles: CONSTANTES_SALLES,
   origine: CONSTANTES_ORIGINES,
-  trait: CONSTANTES_TRAITS,
+  traits: CONSTANTES_TRAITS,
   civisme: CONSTANTES_CIVISME,
 }

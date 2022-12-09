@@ -1,17 +1,26 @@
-import {IMAGES} from '../../images/images'
-import {CONSTANTES} from '../../constantes/constantes'
+import { IMAGES } from "../../images/images";
+import { CONSTANTES } from "../../constantes/constantes";
 
 export const ORGANISATION_NATIONS_UNIES = {
-  nom: 'Organisation des Nations Unies',
+  nom: "Organisation des Nations Unies",
   gouvernement: CONSTANTES.gouvernements.democratique,
-  drapeau: IMAGES.drapeau.ai_01,
+  drapeau: IMAGES.drapeaux.flag_human_9,
   salle: CONSTANTES.salles.constructeurs_federations,
   planete: CONSTANTES.planetes.continental,
-  espece: IMAGES.espece.human,
-  vaisseau: IMAGES.vaisseau.mamillien,
+  espece: IMAGES.especes.human,
+  vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_egalitariste,
-    CONSTANTES.ethiques.xenophile,
+    CONSTANTES.ethiques.xenophile
   ],
-  origine: CONSTANTES.origine.origin_unification_durable,
-}
+  civismes: [
+    CONSTANTES.civisme.beacon_of_liberty,
+    CONSTANTES.civisme.idealistic_foundation
+  ],
+  traits: [
+    CONSTANTES.traits.adaptive,
+    CONSTANTES.traits.nomadic,
+    CONSTANTES.traits.wasteful,
+  ],
+  origine: CONSTANTES.origine.origin_unification_durable
+};

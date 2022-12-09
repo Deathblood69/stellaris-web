@@ -3,66 +3,66 @@ import {IMAGES} from '../../images/images'
 export const CONSTANTES_ESPECES_FONGOIDE = {
   slender1: {
     nom: 'slender1',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   slender2: {
     nom: 'slender2',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   slender3: {
     nom: 'slender3',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   slender4: {
     nom: 'slender4',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   normal6: {
     nom: 'normal6',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   normal7: {
     nom: 'normal7',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   normal8: {
     nom: 'normal8',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   normal9: {
     nom: 'normal9',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   normal10: {
     nom: 'normal10',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive11: {
     nom: 'massive11',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive12: {
     nom: 'massive12',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive13: {
     nom: 'massive13',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive14: {
     nom: 'massive14',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive15: {
     nom: 'massive15',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   massive16: {
     nom: 'massive16',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
   fungoid17: {
     nom: 'fungoid17',
-    image: IMAGES.espece.human,
+    image: IMAGES.especes.human,
   },
 }
