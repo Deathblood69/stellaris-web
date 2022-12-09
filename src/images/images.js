@@ -1,27 +1,27 @@
-import background from './background.jpg'
-import logo from './logo.svg'
-import {IMAGES_DRAPEAUX} from './drapeaux/images-drapeaux'
-import {IMAGES_ESPECES} from './especes/images-especes'
-import {IMAGES_PLANETES} from './planetes/images-planete'
-import {IMAGES_SALLES} from './salles/images-salles'
-import {IMAGES_VAISSEAUX} from './vaisseaux/images-vaisseaux'
-import {IMAGES_ETHIQUES} from './ethiques/images-ethiques'
-import {IMAGES_GOUVERNEMENT} from './gouvernement/images-gouvernement'
-import {IMAGES_ORIGINE} from './origines/images-origines'
-import {IMAGE_TRAITS} from "./traits/images-traits";
-import {IMAGE_CIVISME} from "./civics/images-civisme";
+import background from "./background.jpg";
+import logo from "./logo.svg";
+import { IMAGES_DRAPEAUX } from "./images-drapeaux";
+import { IMAGES_CIVISMES } from "./images-civismes";
+import { IMAGES_ESPECES } from "./images-especes";
+import { IMAGES_ETHIQUES } from "./images-ethiques";
+import { IMAGES_GOUVERNEMENT } from "./images-gouvernement";
+import { IMAGES_ORIGINES } from "./images-origines";
+import { IMAGES_PLANETES } from "./images-planetes";
+import { IMAGES_SALLES } from "./images-salles";
+import { IMAGES_TRAITS } from "./images-traits";
+import { IMAGES_VAISSEAUX } from "./images-vaisseaux";
 
 export const IMAGES = {
   fond: background,
   logo: logo,
-  drapeau: IMAGES_DRAPEAUX,
-  espece: IMAGES_ESPECES,
-  planete: IMAGES_PLANETES,
-  salle: IMAGES_SALLES,
-  vaisseau: IMAGES_VAISSEAUX,
-  ethique: IMAGES_ETHIQUES,
+  civisme: IMAGES_CIVISMES,
+  drapeaux: IMAGES_DRAPEAUX,
+  especes: IMAGES_ESPECES,
+  ethiques: IMAGES_ETHIQUES,
   gouvernement: IMAGES_GOUVERNEMENT,
-  origin: IMAGES_ORIGINE,
-  trait: IMAGE_TRAITS,
-  civisme: IMAGE_CIVISME,
-}
+  origines: IMAGES_ORIGINES,
+  planetes: IMAGES_PLANETES,
+  salles: IMAGES_SALLES,
+  traits: IMAGES_TRAITS,
+  vaisseaux: IMAGES_VAISSEAUX
+};
