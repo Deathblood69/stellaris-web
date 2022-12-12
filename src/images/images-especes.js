@@ -1,21 +1,21 @@
 
 import Alien_AI from './especes/Alien_AI.png';
-import Aquatic-01 from './especes/Aquatic-01.png';
-import Aquatic-02 from './especes/Aquatic-02.png';
-import Aquatic-03 from './especes/Aquatic-03.png';
-import Aquatic-04 from './especes/Aquatic-04.png';
-import Aquatic-05 from './especes/Aquatic-05.png';
-import Aquatic-06 from './especes/Aquatic-06.png';
-import Aquatic-07 from './especes/Aquatic-07.png';
-import Aquatic-08 from './especes/Aquatic-08.png';
-import Aquatic-09 from './especes/Aquatic-09.png';
-import Aquatic-10 from './especes/Aquatic-10.png';
-import Aquatic-11 from './especes/Aquatic-11.png';
-import Aquatic-12 from './especes/Aquatic-12.png';
-import Aquatic-13 from './especes/Aquatic-13.png';
-import Aquatic-14 from './especes/Aquatic-14.png';
-import Aquatic-15 from './especes/Aquatic-15.png';
-import Aquatic-machine from './especes/Aquatic-machine.png';
+import Aquatic_01 from './especes/Aquatic-01.png';
+import Aquatic_02 from './especes/Aquatic-02.png';
+import Aquatic_03 from './especes/Aquatic-03.png';
+import Aquatic_04 from './especes/Aquatic-04.png';
+import Aquatic_05 from './especes/Aquatic-05.png';
+import Aquatic_06 from './especes/Aquatic-06.png';
+import Aquatic_07 from './especes/Aquatic-07.png';
+import Aquatic_08 from './especes/Aquatic-08.png';
+import Aquatic_09 from './especes/Aquatic-09.png';
+import Aquatic_10 from './especes/Aquatic-10.png';
+import Aquatic_11 from './especes/Aquatic-11.png';
+import Aquatic_12 from './especes/Aquatic-12.png';
+import Aquatic_13 from './especes/Aquatic-13.png';
+import Aquatic_14 from './especes/Aquatic-14.png';
+import Aquatic_15 from './especes/Aquatic-15.png';
+import Aquatic_machine from './especes/Aquatic-machine.png';
 import Arthropoid_18 from './especes/Arthropoid_18.png';
 import Arthropoid_19 from './especes/Arthropoid_19.png';
 import Arthropoid_20 from './especes/Arthropoid_20.png';
@@ -190,26 +190,26 @@ import Synthetic_dawn_portrait_mammalian from './especes/Synthetic_dawn_portrait
 import Synthetic_dawn_portrait_molluscoid from './especes/Synthetic_dawn_portrait_molluscoid.png';
 import Synthetic_dawn_portrait_plantoid from './especes/Synthetic_dawn_portrait_plantoid.png';
 import Synthetic_dawn_portrait_reptilian from './especes/Synthetic_dawn_portrait_reptilian.png';
-import TOX.MACH.SCI from './especes/TOX.MACH.SCI.png';
+import TOX_MACH_SCI from './especes/TOX_MACH_SCI.png';
 
 export const IMAGES_ESPECES = {
 Alien_AI,
-Aquatic-01,
-Aquatic-02,
-Aquatic-03,
-Aquatic-04,
-Aquatic-05,
-Aquatic-06,
-Aquatic-07,
-Aquatic-08,
-Aquatic-09,
-Aquatic-10,
-Aquatic-11,
-Aquatic-12,
-Aquatic-13,
-Aquatic-14,
-Aquatic-15,
-Aquatic-machine,
+Aquatic_01,
+Aquatic_02,
+Aquatic_03,
+Aquatic_04,
+Aquatic_05,
+Aquatic_06,
+Aquatic_07,
+Aquatic_08,
+Aquatic_09,
+Aquatic_10,
+Aquatic_11,
+Aquatic_12,
+Aquatic_13,
+Aquatic_14,
+Aquatic_15,
+Aquatic_machine,
 Arthropoid_18,
 Arthropoid_19,
 Arthropoid_20,
@@ -384,5 +384,5 @@ Synthetic_dawn_portrait_mammalian,
 Synthetic_dawn_portrait_molluscoid,
 Synthetic_dawn_portrait_plantoid,
 Synthetic_dawn_portrait_reptilian,
-TOX.MACH.SCI,
+TOX_MACH_SCI,
 }
