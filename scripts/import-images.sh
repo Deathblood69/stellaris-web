@@ -5,7 +5,7 @@ IMAGE_FOLDER="../src/images"
 
 
 # Itérez à travers les sous-dossiers dans le dossier d'images
-for subdir in $(find $IMAGE_FOLDER -type d); do
+  for subdir in $(find $IMAGE_FOLDER -type d); do
 
   SUBDIR_NAME=$(basename $subdir)
 
