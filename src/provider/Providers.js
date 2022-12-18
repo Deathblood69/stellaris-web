@@ -1,27 +1,36 @@
 import React, {Suspense} from 'react'
 import {BrowserRouter} from 'react-router-dom'
-import {Chargement} from '../composants/Chargement/Chargement'
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
-import logo from '../images/logo.svg'
-import {UserProvider} from './UserProvider'
 import '../locales/i18n'
-import {AlertProvider} from "./AlertProvider";
+import { CircularProgress, createTheme, CssBaseline, ThemeProvider, useMediaQuery } from "@mui/material";
 
 /**
  * Composant permettant de fournir des contextes à l'application
  * @returns {JSX.Element}
  * @constructor
  */
-export const Providers = ({children}) => (
-  <Suspense fallback={<Chargement logo={logo} />}>
+export const Providers = ({children}) => {
+
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+  const theme = React.useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode: prefersDarkMode ? 'dark' : 'light',
+        },
+      }),
+    [prefersDarkMode],
+  );
+
+  return <Suspense fallback={<CircularProgress />}>
     <QueryClientProvider client={queryClient}>
-      <AlertProvider>
-        <UserProvider>
-          <BrowserRouter>{children}</BrowserRouter>
-        </UserProvider>
-      </AlertProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <BrowserRouter>{children}</BrowserRouter>
+      </ThemeProvider>
     </QueryClientProvider>
-  </Suspense>
-)
+  </Suspense>;
+}
 
 const queryClient = new QueryClient()
