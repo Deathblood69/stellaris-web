@@ -7,7 +7,7 @@ export const COMMUNAUTE_HUMAINE = {
   drapeau: IMAGES.drapeaux.flag_human_4,
   salle: CONSTANTES.salles.hegemonie_imperialiste,
   planete: CONSTANTES.planetes.continental,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.humain.humain,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_militariste,

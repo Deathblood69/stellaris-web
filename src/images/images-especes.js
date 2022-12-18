@@ -190,6 +190,21 @@ import Synthetic_dawn_portrait_mammalian from './especes/Synthetic_dawn_portrait
 import Synthetic_dawn_portrait_molluscoid from './especes/Synthetic_dawn_portrait_molluscoid.png';
 import Synthetic_dawn_portrait_plantoid from './especes/Synthetic_dawn_portrait_plantoid.png';
 import Synthetic_dawn_portrait_reptilian from './especes/Synthetic_dawn_portrait_reptilian.png';
+import TOX_01 from './especes/TOX_01.png';
+import TOX_02 from './especes/TOX_02.png';
+import TOX_03 from './especes/TOX_03.png';
+import TOX_04 from './especes/TOX_04.png';
+import TOX_05 from './especes/TOX_05.png';
+import TOX_06 from './especes/TOX_06.png';
+import TOX_07 from './especes/TOX_07.png';
+import TOX_08 from './especes/TOX_08.png';
+import TOX_09 from './especes/TOX_09.png';
+import TOX_10 from './especes/TOX_10.png';
+import TOX_11 from './especes/TOX_11.png';
+import TOX_12 from './especes/TOX_12.png';
+import TOX_13 from './especes/TOX_13.png';
+import TOX_14 from './especes/TOX_14.png';
+import TOX_15 from './especes/TOX_15.png';
 import TOX_MACH_SCI from './especes/TOX_MACH_SCI.png';
 
 export const IMAGES_ESPECES = {
@@ -384,5 +399,20 @@ Synthetic_dawn_portrait_mammalian,
 Synthetic_dawn_portrait_molluscoid,
 Synthetic_dawn_portrait_plantoid,
 Synthetic_dawn_portrait_reptilian,
+TOX_01,
+TOX_02,
+TOX_03,
+TOX_04,
+TOX_05,
+TOX_06,
+TOX_07,
+TOX_08,
+TOX_09,
+TOX_10,
+TOX_11,
+TOX_12,
+TOX_13,
+TOX_14,
+TOX_15,
 TOX_MACH_SCI,
 }

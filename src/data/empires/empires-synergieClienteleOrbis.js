@@ -7,7 +7,7 @@ export const SYNERGIE_CLIENTELE_ORBIS = {
   drapeau: IMAGES.drapeaux.corporate_04,
   salle: CONSTANTES.salles.commercants_pacifiques,
   planete: CONSTANTES.planetes.ocean,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.repitilian.slender1,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.autoritariste,

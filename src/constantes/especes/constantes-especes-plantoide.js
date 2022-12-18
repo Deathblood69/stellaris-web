@@ -1,76 +1,64 @@
 import {IMAGES} from '../../images/images'
 
 export const CONSTANTES_ESPECES_PLANTOIDE = {
-  slender1: {
+  plantoid1: {
     nom: 'slender1',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_01,
   },
-  slender2: {
+  plantoid2: {
     nom: 'slender2',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_02,
   },
-  slender3: {
+  plantoid3: {
     nom: 'slender3',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_03,
   },
-  // slender4: {
-  //   nom: 'slender4',
-  //   image: IMAGES.especes.human,
-  // },
-  slender5: {
+  plantoid4: {
+    nom: 'slender4',
+    image: IMAGES.especes.Plantoid_04,
+  },
+  plantoid5: {
     nom: 'slender5',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_05,
   },
-  normal6: {
+  plantoid6: {
     nom: 'normal6',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_06,
   },
-  normal7: {
+  plantoid7: {
     nom: 'normal7',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_07,
   },
-  // normal8: {
-  //   nom: 'normal8',
-  //   image: IMAGES.especes.human,
-  // },
-  // normal9: {
-  //   nom: 'normal9',
-  //   image: IMAGES.especes.human,
-  // },
-  normal10: {
+  plantoid8: {
+    nom: 'normal8',
+    image: IMAGES.especes.Plantoid_08,
+  },
+  plantoid9: {
+    nom: 'normal9',
+    image: IMAGES.especes.Plantoid_09,
+  },
+  plantoid10: {
     nom: 'normal10',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_10,
   },
-  massive11: {
+  plantoid11: {
     nom: 'massive11',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_11,
   },
-  // massive12: {
-  //   nom: 'massive12',
-  //   image: IMAGES.especes.human,
-  // },
-  massive13: {
+  plantoid12: {
+    nom: 'massive12',
+    image: IMAGES.especes.Plantoid_12,
+  },
+  plantoid13: {
     nom: 'massive13',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_13,
   },
-  // massive14: {
-  //   nom: 'massive14',
-  //   image: IMAGES.especes.human,
-  // },
-  massive15: {
+  plantoid14: {
+    nom: 'massive14',
+    image: IMAGES.especes.Plantoid_14,
+  },
+  plantoid15: {
     nom: 'massive15',
-    image: IMAGES.especes.human,
+    image: IMAGES.especes.Plantoid_15,
   },
-  // massive16: {
-  //   nom: 'massive16',
-  //   image: IMAGES.especes.human,
-  // },
-  // massive17: {
-  //   nom: 'massive17',
-  //   image: IMAGES.especes.human,
-  // },
-  // avian18: {
-  //   nom: 'avian18',
-  //   image: IMAGES.especes.human,
-  // },
 }

@@ -7,7 +7,7 @@ export const ORGANISATION_CHINORRIENNE = {
   drapeau: IMAGES.drapeaux.flag_ornate_4,
   salle: CONSTANTES.salles.capitalistes_impitoyables,
   planete: CONSTANTES.planetes.aride,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.molluscoide.massive11,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_materialiste,

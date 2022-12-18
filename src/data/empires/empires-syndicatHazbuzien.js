@@ -7,7 +7,7 @@ export const SYNDICAT_HAZBUZIEN = {
   drapeau: IMAGES.drapeaux.corporate_03,
   salle: CONSTANTES.salles.capitalistes_impitoyables,
   planete: CONSTANTES.planetes.savanne,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.repitilian.massive11,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_militariste,

@@ -22,8 +22,8 @@ export const EmpireEspece = ({espece, traits = []}) => (
       }}
     >
       <img
-        src={espece}
-        alt={'espece'}
+        src={espece.image}
+        alt={espece?.nom}
         style={{
           maxWidth: '50%',
           maxHeight: '100%',

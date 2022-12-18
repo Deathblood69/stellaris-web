@@ -7,7 +7,7 @@ export const COOPERATION_KILLIK = {
   drapeau: IMAGES.drapeaux.corporate_02,
   salle: CONSTANTES.salles.explorateurs_erudits,
   planete: CONSTANTES.planetes.tropical,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.aviaire.massive11,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_egalitariste,

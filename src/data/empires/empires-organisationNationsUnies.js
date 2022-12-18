@@ -7,7 +7,7 @@ export const ORGANISATION_NATIONS_UNIES = {
   drapeau: IMAGES.drapeaux.flag_human_9,
   salle: CONSTANTES.salles.constructeurs_federations,
   planete: CONSTANTES.planetes.continental,
-  espece: IMAGES.especes.human,
+  espece: CONSTANTES.especes.humain.humain,
   vaisseau: IMAGES.vaisseaux.mammillian,
   ethiques: [
     CONSTANTES.ethiques.fanatiquement_egalitariste,
